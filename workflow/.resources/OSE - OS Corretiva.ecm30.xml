@@ -1,0 +1,1872 @@
+<list>
+  <ProcessDefinition>
+    <processDefinitionPK>
+      <companyId>1</companyId>
+      <processId>OSE-OSCorretiva</processId>
+    </processDefinitionPK>
+    <processDescription>OSE - OS Corretiva</processDescription>
+    <instruction></instruction>
+    <active>true</active>
+    <publicProcess>false</publicProcess>
+    <volumeId>Default</volumeId>
+    <categoryId>Manutenção</categoryId>
+    <managerEngineAllocationId>Papel</managerEngineAllocationId>
+    <managerEngineAllocationConfiguration>&lt;AssignmentController&gt;&lt;Role&gt;GestorOSE&lt;/Role&gt;&lt;/AssignmentController&gt;</managerEngineAllocationConfiguration>
+    <snapshotFrequency>0</snapshotFrequency>
+    <baseDay>0</baseDay>
+    <baseMonth>0</baseMonth>
+    <periodId>Default</periodId>
+    <uniqueCardVersion>true</uniqueCardVersion>
+    <keyWord></keyWord>
+    <complementsLevel>1</complementsLevel>
+    <notifyRequisitionerComplements>true</notifyRequisitionerComplements>
+    <notifyManagerComplements>false</notifyManagerComplements>
+    <deadlineTime>0</deadlineTime>
+    <warningDeadlineTime>0</warningDeadlineTime>
+    <notifyAuthorityComplements>true</notifyAuthorityComplements>
+  </ProcessDefinition>
+  <ProcessDefinitionVersion>
+    <processDefinitionVersionPK>
+      <companyId>1</companyId>
+      <processId>OSE - OS Corretiva</processId>
+      <version>23</version>
+    </processDefinitionVersionPK>
+    <versionDescription></versionDescription>
+    <formId>0</formId>
+    <editionMode>true</editionMode>
+    <updateAttachmentsVersion>false</updateAttachmentsVersion>
+    <controlsAttachmentsSecurity>false</controlsAttachmentsSecurity>
+    <active>true</active>
+    <blockedVersion>false</blockedVersion>
+    <counterSign>false</counterSign>
+    <openInstances>0</openInstances>
+    <bpmnVersion>2</bpmnVersion>
+    <processStates/>
+    <favorito>false</favorito>
+    <inheritFormSecurity>false</inheritFormSecurity>
+    <mobileReady>true</mobileReady>
+  </ProcessDefinitionVersion>
+  <list>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>OSE-OSCorretiva</processId>
+        <version>1</version>
+        <sequence>4</sequence>
+      </processStatePK>
+      <stateName>Início</stateName>
+      <stateDescription>Início</stateDescription>
+      <instruction></instruction>
+      <deadlineTime>14400</deadlineTime>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <engineAllocationId>Grupo</engineAllocationId>
+      <engineAllocationConfiguration>&lt;AssignmentController&gt;&lt;Group&gt;OSEMecanicos&lt;/Group&gt;&lt;/AssignmentController&gt;</engineAllocationConfiguration>
+      <selectColleague>1</selectColleague>
+      <initialState>true</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>3600</allowanceAuthorityTime>
+      <frequenceAuthorityTime>3600</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>false</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>70</positionX>
+      <positionY>89</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <allowanceManagerTime>0</allowanceManagerTime>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId></periodId>
+      <stateType>0</stateType>
+      <bpmnType>10</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <noticeExpirationAuthorityTime>0</noticeExpirationAuthorityTime>
+      <noticeExpirationRequisitionerTime>0</noticeExpirationRequisitionerTime>
+      <noticeExpirationManagerTime>0</noticeExpirationManagerTime>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>OSE-OSCorretiva</processId>
+        <version>1</version>
+        <sequence>5</sequence>
+      </processStatePK>
+      <stateName>Tratativa OS</stateName>
+      <stateDescription>Tratativa OS</stateDescription>
+      <instruction></instruction>
+      <deadlineTime>14400</deadlineTime>
+      <deadlineFieldName></deadlineFieldName>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <engineAllocationId>Grupo</engineAllocationId>
+      <engineAllocationConfiguration>&lt;AssignmentController&gt;&lt;Group&gt;OSEControladores&lt;/Group&gt;&lt;/AssignmentController&gt;</engineAllocationConfiguration>
+      <selectColleague>1</selectColleague>
+      <initialState>false</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>3600</allowanceAuthorityTime>
+      <frequenceAuthorityTime>3600</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>true</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>330</positionX>
+      <positionY>269</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <allowanceManagerTime>0</allowanceManagerTime>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId></periodId>
+      <stateType>0</stateType>
+      <bpmnType>80</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <noticeExpirationAuthorityTime>0</noticeExpirationAuthorityTime>
+      <noticeExpirationRequisitionerTime>0</noticeExpirationRequisitionerTime>
+      <noticeExpirationManagerTime>0</noticeExpirationManagerTime>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+      <executionType>0</executionType>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>OSE-OSCorretiva</processId>
+        <version>1</version>
+        <sequence>10</sequence>
+      </processStatePK>
+      <stateName>Resolve Erros de Integração</stateName>
+      <stateDescription>Resolve Erros de Integração</stateDescription>
+      <instruction></instruction>
+      <deadlineTime>28800</deadlineTime>
+      <deadlineFieldName></deadlineFieldName>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <engineAllocationId>Pool Papel</engineAllocationId>
+      <engineAllocationConfiguration>&lt;AssignmentController&gt;&lt;Role&gt;admin&lt;/Role&gt;&lt;/AssignmentController&gt;</engineAllocationConfiguration>
+      <selectColleague>1</selectColleague>
+      <initialState>false</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>3600</allowanceAuthorityTime>
+      <frequenceAuthorityTime>3600</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>true</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>750</positionX>
+      <positionY>453</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <allowanceManagerTime>0</allowanceManagerTime>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId></periodId>
+      <stateType>0</stateType>
+      <bpmnType>80</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <noticeExpirationAuthorityTime>0</noticeExpirationAuthorityTime>
+      <noticeExpirationRequisitionerTime>0</noticeExpirationRequisitionerTime>
+      <noticeExpirationManagerTime>0</noticeExpirationManagerTime>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+      <executionType>0</executionType>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>OSE-OSCorretiva</processId>
+        <version>1</version>
+        <sequence>14</sequence>
+      </processStatePK>
+      <stateName>Acompanhamentos de Peças e Serviços Externos</stateName>
+      <stateDescription>Acompanhamentos de Peças e Serviços Externos</stateDescription>
+      <instruction></instruction>
+      <deadlineTime>57600</deadlineTime>
+      <deadlineFieldName></deadlineFieldName>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <engineAllocationId>Grupo</engineAllocationId>
+      <engineAllocationConfiguration>&lt;AssignmentController&gt;&lt;Group&gt;OSEControladores&lt;/Group&gt;&lt;/AssignmentController&gt;</engineAllocationConfiguration>
+      <selectColleague>1</selectColleague>
+      <initialState>false</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>3600</allowanceAuthorityTime>
+      <frequenceAuthorityTime>3600</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>true</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>600</positionX>
+      <positionY>248</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <allowanceManagerTime>0</allowanceManagerTime>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId></periodId>
+      <stateType>0</stateType>
+      <bpmnType>80</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <noticeExpirationAuthorityTime>0</noticeExpirationAuthorityTime>
+      <noticeExpirationRequisitionerTime>0</noticeExpirationRequisitionerTime>
+      <noticeExpirationManagerTime>0</noticeExpirationManagerTime>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+      <executionType>0</executionType>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>OSE-OSCorretiva</processId>
+        <version>1</version>
+        <sequence>16</sequence>
+      </processStatePK>
+      <stateName>Execução do Serviço</stateName>
+      <stateDescription>Execução do Serviço</stateDescription>
+      <instruction></instruction>
+      <deadlineTime>57600</deadlineTime>
+      <deadlineFieldName></deadlineFieldName>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <engineAllocationId>Grupo</engineAllocationId>
+      <engineAllocationConfiguration>&lt;AssignmentController&gt;&lt;Group&gt;OSEMecanicos&lt;/Group&gt;&lt;/AssignmentController&gt;</engineAllocationConfiguration>
+      <selectColleague>1</selectColleague>
+      <initialState>false</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>3600</allowanceAuthorityTime>
+      <frequenceAuthorityTime>3600</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>true</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>600</positionX>
+      <positionY>72</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <allowanceManagerTime>0</allowanceManagerTime>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId></periodId>
+      <stateType>0</stateType>
+      <bpmnType>80</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <noticeExpirationAuthorityTime>0</noticeExpirationAuthorityTime>
+      <noticeExpirationRequisitionerTime>0</noticeExpirationRequisitionerTime>
+      <noticeExpirationManagerTime>0</noticeExpirationManagerTime>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+      <executionType>0</executionType>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>OSE-OSCorretiva</processId>
+        <version>1</version>
+        <sequence>18</sequence>
+      </processStatePK>
+      <stateName>Fim</stateName>
+      <stateDescription>Fim</stateDescription>
+      <instruction>Atividade final do processo</instruction>
+      <deadlineTime>0</deadlineTime>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <engineAllocationId></engineAllocationId>
+      <engineAllocationConfiguration></engineAllocationConfiguration>
+      <selectColleague>0</selectColleague>
+      <initialState>false</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>0</allowanceAuthorityTime>
+      <frequenceAuthorityTime>1</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>false</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>990</positionX>
+      <positionY>89</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <allowanceManagerTime>0</allowanceManagerTime>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId></periodId>
+      <stateType>6</stateType>
+      <bpmnType>60</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>OSE-OSCorretiva</processId>
+        <version>1</version>
+        <sequence>22</sequence>
+      </processStatePK>
+      <stateName>Fim</stateName>
+      <stateDescription>Fim</stateDescription>
+      <instruction>Atividade final do processo</instruction>
+      <deadlineTime>0</deadlineTime>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <engineAllocationId></engineAllocationId>
+      <engineAllocationConfiguration></engineAllocationConfiguration>
+      <selectColleague>0</selectColleague>
+      <initialState>false</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>0</allowanceAuthorityTime>
+      <frequenceAuthorityTime>1</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>false</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>990</positionX>
+      <positionY>470</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <allowanceManagerTime>0</allowanceManagerTime>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId></periodId>
+      <stateType>6</stateType>
+      <bpmnType>60</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+    </ProcessState>
+  </list>
+  <list/>
+  <list>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>OSE-OSCorretiva</processId>
+        <version>1</version>
+        <linkSequence>11</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <finalStateSequence>10</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>OSE-OSCorretiva</processId>
+        <version>1</version>
+        <linkSequence>17</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>14</initialStateSequence>
+      <finalStateSequence>16</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>OSE-OSCorretiva</processId>
+        <version>1</version>
+        <linkSequence>21</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>5</initialStateSequence>
+      <finalStateSequence>16</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>OSE-OSCorretiva</processId>
+        <version>1</version>
+        <linkSequence>23</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>10</initialStateSequence>
+      <finalStateSequence>22</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>OSE-OSCorretiva</processId>
+        <version>1</version>
+        <linkSequence>29</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <finalStateSequence>10</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>OSE-OSCorretiva</processId>
+        <version>1</version>
+        <linkSequence>31</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>5</initialStateSequence>
+      <finalStateSequence>14</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>OSE-OSCorretiva</processId>
+        <version>1</version>
+        <linkSequence>41</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <finalStateSequence>10</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>OSE-OSCorretiva</processId>
+        <version>1</version>
+        <linkSequence>42</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <finalStateSequence>10</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>OSE-OSCorretiva</processId>
+        <version>1</version>
+        <linkSequence>45</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>16</initialStateSequence>
+      <finalStateSequence>14</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>OSE-OSCorretiva</processId>
+        <version>1</version>
+        <linkSequence>51</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <finalStateSequence>10</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>OSE-OSCorretiva</processId>
+        <version>1</version>
+        <linkSequence>53</linkSequence>
+      </processLinkPK>
+      <actionLabel>Corrigir Dados OS</actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>5</initialStateSequence>
+      <finalStateSequence>4</finalStateSequence>
+      <returnLabel>Corrigir Dados OS</returnLabel>
+      <name>Corrigir Dados OS</name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+      <movementTitle></movementTitle>
+      <movementDescription></movementDescription>
+      <movementAccessLinkDescription></movementAccessLinkDescription>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>OSE-OSCorretiva</processId>
+        <version>1</version>
+        <linkSequence>56</linkSequence>
+      </processLinkPK>
+      <actionLabel>Tratativa OS</actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>4</initialStateSequence>
+      <finalStateSequence>5</finalStateSequence>
+      <returnLabel>Tratativa OS</returnLabel>
+      <name>Tratativa OS</name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>OSE-OSCorretiva</processId>
+        <version>1</version>
+        <linkSequence>57</linkSequence>
+      </processLinkPK>
+      <actionLabel>Encerrar OS</actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>16</initialStateSequence>
+      <finalStateSequence>18</finalStateSequence>
+      <returnLabel>Encerrar OS</returnLabel>
+      <name>Encerrar OS</name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>OSE-OSCorretiva</processId>
+        <version>1</version>
+        <linkSequence>58</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>16</initialStateSequence>
+      <finalStateSequence>10</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>OSE-OSCorretiva</processId>
+        <version>1</version>
+        <linkSequence>59</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>10</initialStateSequence>
+      <finalStateSequence>16</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>OSE-OSCorretiva</processId>
+        <version>1</version>
+        <linkSequence>60</linkSequence>
+      </processLinkPK>
+      <actionLabel>Encerrar OS</actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>4</initialStateSequence>
+      <finalStateSequence>18</finalStateSequence>
+      <returnLabel>Encerrar OS</returnLabel>
+      <name>Encerrar OS</name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+  </list>
+  <list/>
+  <list>
+    <WorkflowProcessEvent>
+      <workflowProcessEventPK>
+        <companyId>1</companyId>
+        <eventId>beforeCancelProcess</eventId>
+        <processId>OSE-OSCorretiva</processId>
+        <version>1</version>
+      </workflowProcessEventPK>
+      <eventDescription>function beforeCancelProcess(colleagueId,processId){&#xd;
+	&#xd;
+	try{&#xd;
+	    var c1 = DatasetFactory.createConstraint(&quot;workflowColleagueRolePK.roleId&quot;, &quot;GestorOSE&quot;,&quot;GestorOSE&quot; , ConstraintType.MUST);&#xd;
+	    var c2 = DatasetFactory.createConstraint(&quot;workflowColleagueRolePK.colleagueId&quot;, getValue(&quot;WKUser&quot;), getValue(&quot;WKUser&quot;), ConstraintType.MUST);&#xd;
+		var constraints = new Array(c1, c2);&#xd;
+		var dataset = DatasetFactory.getDataset(&quot;workflowColleagueRole&quot;, null, constraints, null);&#xd;
+    	var chapaDoPapel = dataset.getValue(0, &quot;workflowColleagueRolePK.colleagueId&quot;)&#xd;
+	}catch (e){&#xd;
+		throw &quot;\n  Você não pode cancelar esta solicitação  \n&quot;;&#xd;
+	}&#xd;
+	&#xd;
+}</eventDescription>
+    </WorkflowProcessEvent>
+    <WorkflowProcessEvent>
+      <workflowProcessEventPK>
+        <companyId>1</companyId>
+        <eventId>beforeTaskSave</eventId>
+        <processId>OSE-OSCorretiva</processId>
+        <version>1</version>
+      </workflowProcessEventPK>
+      <eventDescription>function beforeTaskSave(colleagueId,nextSequenceId,userList){&#xd;
+	&#xd;
+	if (nextSequenceId == &quot;5&quot; || nextSequenceId == &quot;18&quot;){&#xd;
+		// Obtém a data e hora atuais&#xd;
+		var dataAtual = new Date();&#xd;
+		&#xd;
+		// Extrai as partes necessárias da data e hora&#xd;
+		var dia = dataAtual.getDate() &lt; 10 ? &apos;0&apos; + dataAtual.getDate() : dataAtual.getDate();&#xd;
+		var mes = (dataAtual.getMonth() + 1) &lt; 10 ? &apos;0&apos; + (dataAtual.getMonth() + 1) : (dataAtual.getMonth() + 1); // Mês começa em zero&#xd;
+		var ano = dataAtual.getFullYear();&#xd;
+		var hora = dataAtual.getHours() &lt; 10 ? &apos;0&apos; + dataAtual.getHours() : dataAtual.getHours();&#xd;
+		var minutos = dataAtual.getMinutes() &lt; 10 ? &apos;0&apos; + dataAtual.getMinutes() : dataAtual.getMinutes();&#xd;
+&#xd;
+		// Formata a data e hora no padrão desejado&#xd;
+		var dataFormatada = dia + &apos;/&apos; + mes + &apos;/&apos; + ano + &apos; - &apos; + hora + &apos;:&apos; + minutos;&#xd;
+&#xd;
+		console.log(dataFormatada);&#xd;
+		nextSequenceId == &quot;5&quot; ? hAPI.setCardValue(&quot;DATAINICIOOS&quot;, dataFormatada) : hAPI.setCardValue(&quot;DATATERMINOOS&quot;, dataFormatada);&#xd;
+		if (nextSequenceId == &quot;18&quot; &amp;&amp; hAPI.getCardValue(&quot;DATAINICIOOS&quot;) == &quot;&quot;){&#xd;
+			hAPI.setCardValue(&quot;DATAINICIOOS&quot;, dataFormatada);&#xd;
+		}&#xd;
+	}&#xd;
+	&#xd;
+	if ((nextSequenceId == 14 || nextSequenceId == 16) &amp;&amp; getValue(&quot;WKNumState&quot;) != &quot;16&quot;){&#xd;
+		atualizacaoCamposControlador();&#xd;
+	}&#xd;
+	&#xd;
+	if (getValue(&quot;WKNumState&quot;) == &quot;0&quot; || getValue(&quot;WKNumState&quot;) == &quot;4&quot;){&#xd;
+		validacaoHorimetroCorreto();&#xd;
+	}&#xd;
+	&#xd;
+	if (nextSequenceId == 16){&#xd;
+		validacaoRMRSPendente();&#xd;
+	}&#xd;
+	&#xd;
+	var login = fluigAPI.getUserService().getCurrent().getLogin();&#xd;
+	var primeiraLetra = login.substring(0, 1).toUpperCase();&#xd;
+	var restoDaString = login.slice(1);&#xd;
+	var codusuario = primeiraLetra + restoDaString;&#xd;
+	&#xd;
+	var dataset = DatasetFactory.getDataset(&quot;ds_OSE_Valida_Acessos&quot;, &#xd;
+	        null, &#xd;
+	        [DatasetFactory.createConstraint(&quot;CODUSUARIO&quot;, codusuario, codusuario, ConstraintType.MUST)],&#xd;
+	        null);&#xd;
+	var temacesso = true&#xd;
+	for(var i = 0; i &lt; dataset.rowsCount; i++) {&#xd;
+        if (dataset.getValue(i, &quot;TEMACESSO&quot;) == &apos;FALSE&apos;){temacesso = false};&#xd;
+    }&#xd;
+	&#xd;
+		if ((getValue(&quot;WKNumState&quot;) == &quot;0&quot; || getValue(&quot;WKNumState&quot;) == &quot;4&quot;) &amp;&amp; nextSequenceId == 5){&#xd;
+			if (temacesso){&#xd;
+				criacaoOSCorretiva()&#xd;
+			} else {throw &quot;\n\nVocê não tem todos os acessos para proseguir com o processo!\n\n&quot;}&#xd;
+		}&#xd;
+		if ((getValue(&quot;WKNumState&quot;) == &quot;0&quot; || getValue(&quot;WKNumState&quot;) == &quot;4&quot;) &amp;&amp; nextSequenceId == 18){&#xd;
+			if (temacesso){criaFinalizaOSCorretiva();} else {throw &quot;\n\nVocê não tem todos os acessos para proseguir com o processo!\n\n&quot;}&#xd;
+		}&#xd;
+		if (getValue(&quot;WKNumState&quot;) == &quot;16&quot; &amp;&amp; nextSequenceId == 18){&#xd;
+			if (temacesso){finalizacaoOSCorretiva();} else {throw &quot;\n\nVocê não tem todos os acessos para proseguir com o processo!\n\n&quot;}&#xd;
+		}&#xd;
+	&#xd;
+}&#xd;
+&#xd;
+function atualizacaoCamposControlador(){&#xd;
+&#xd;
+	var nomeDataserver = &quot;MOVMOVIMENTOTBCDATA&quot;&#xd;
+	log.info(&quot;nomeDataserver: &quot;+nomeDataserver)&#xd;
+	&#xd;
+	var user = DatasetFactory.getDataset(&quot;ds_connector&quot;, null, null, null);&#xd;
+	log.info(&quot;user: &quot;+user)&#xd;
+	&#xd;
+	var usuario = user.getValue(0, &quot;INTEGRADOR&quot;)&#xd;
+	log.info(&quot;usuario: &quot;+usuario)&#xd;
+	var senha = user.getValue(0, &quot;SENHA&quot;)&#xd;
+	//log.info(&quot;senha: &quot;+senha)&#xd;
+	var email = user.getValue(0, &quot;EMAIL&quot;)&#xd;
+	log.info(&quot;email: &quot;+email)&#xd;
+&#xd;
+	var login = fluigAPI.getUserService().getCurrent().getLogin();&#xd;
+	var primeiraLetra = login.substring(0, 1).toUpperCase();&#xd;
+	log.info(&quot;primeiraLetra: &quot;+primeiraLetra)&#xd;
+	var restoDaString = login.slice(1);&#xd;
+	log.info(&quot;restoDaString: &quot;+restoDaString)&#xd;
+	var codusuario = primeiraLetra + restoDaString;&#xd;
+	&#xd;
+	var contexto = &quot;codcoligada=1;codusuario=&quot;+codusuario+&quot;;codsistema=N&quot;&#xd;
+		log.info(&quot;contexto: &quot;+contexto)&#xd;
+		&#xd;
+	var authService = getWebService(usuario, senha)&#xd;
+	log.info(&quot;authService: &quot;+authService)&#xd;
+	&#xd;
+	&#xd;
+	var idmov = hAPI.getCardValue(&quot;OSIDMOV&quot;)&#xd;
+    //xml que envia as informaçoes para o RM    &#xd;
+	var xml = &quot;&quot;+&#xd;
+	&quot;&lt;MovMovimento&gt;&quot;+&#xd;
+		&quot;&lt;TMOV&gt;&quot;+&#xd;
+			&quot;&lt;CODCOLIGADA&gt;1&lt;/CODCOLIGADA&gt;&quot;+&#xd;
+			&quot;&lt;IDMOV&gt;&quot;+idmov+&quot;&lt;/IDMOV&gt;&quot;+&#xd;
+			&quot;&lt;IDCLASSMOV&gt;&quot;+hAPI.getCardValue(&quot;IDCLASSEDAMANUTENCAO&quot;)+&quot;&lt;/IDCLASSMOV&gt;&quot;+&#xd;
+		&quot;&lt;/TMOV&gt;&quot;+&#xd;
+		&quot;&lt;TMOVCOMPL&gt;&quot;+&#xd;
+			&quot;&lt;CODCOLIGADA&gt;1&lt;/CODCOLIGADA&gt;&quot;+&#xd;
+			&quot;&lt;IDMOV&gt;&quot;+idmov+&quot;&lt;/IDMOV&gt;&quot;+&#xd;
+			&quot;&lt;DATA1&gt;&quot;+hAPI.getCardValue(&quot;PRIMEIRAPREVLIBERACAO&quot;)+&quot;&lt;/DATA1&gt;&quot;+&#xd;
+			&quot;&lt;DATA2&gt;&quot;+hAPI.getCardValue(&quot;SEGUNDAPREVLIBERACAO&quot;)+&quot;&lt;/DATA2&gt;&quot;+&#xd;
+			&quot;&lt;DATA3&gt;&quot;+hAPI.getCardValue(&quot;TERCEIRAPREVLIBERACAO&quot;)+&quot;&lt;/DATA3&gt;&quot;+&#xd;
+			&quot;&lt;OBV1&gt;&quot;+hAPI.getCardValue(&quot;FOLLOWUP&quot;)+&quot;&lt;/OBV1&gt;&quot;+&#xd;
+		&quot;&lt;/TMOVCOMPL&gt;&quot;;&#xd;
+&#xd;
+	xml = xml+&quot;&lt;/MovMovimento&gt;&quot;&#xd;
+			&#xd;
+			log.error(&quot;xml: &quot;)&#xd;
+			log.error(xml)&#xd;
+			&#xd;
+				&#xd;
+	var result = new String( authService.saveRecord(nomeDataserver, xml, contexto) );&#xd;
+	hAPI.setCardValue(&quot;OSIDMOV&quot;, result.split(&quot;;&quot;)[1])&#xd;
+	log.error(&quot;result: &quot;+result);&#xd;
+	//String DataServerName, String XML, String UserName, String UserPassword, String contexto, String emailUsuarioContexto&#xd;
+	&#xd;
+	if (result.split(&quot;;&quot;)[0] != &quot;1&quot;){&#xd;
+		throw &quot;ERRO AO ATUALIZAR CAMPOS DE ANÁLISE DE MANUTENÇÃO DA OS\n\n&quot;+result.split(&quot;=&quot;)[0]+&quot;\n\n&quot;&#xd;
+	}&#xd;
+		&#xd;
+}&#xd;
+&#xd;
+function criacaoOSCorretiva(){&#xd;
+	&#xd;
+	var user = DatasetFactory.getDataset(&quot;ds_connector&quot;, null, null, null);&#xd;
+	log.info(&quot;user: &quot;+user)&#xd;
+	&#xd;
+	var usuario = user.getValue(0, &quot;INTEGRADOR&quot;)&#xd;
+	log.info(&quot;usuario: &quot;+usuario)&#xd;
+	var senha = user.getValue(0, &quot;SENHA&quot;)&#xd;
+	//log.info(&quot;senha: &quot;+senha)&#xd;
+	var email = user.getValue(0, &quot;EMAIL&quot;)&#xd;
+	log.info(&quot;email: &quot;+email)&#xd;
+	&#xd;
+	var login = fluigAPI.getUserService().getCurrent().getLogin();&#xd;
+	var primeiraLetra = login.substring(0, 1).toUpperCase();&#xd;
+	log.info(&quot;primeiraLetra: &quot;+primeiraLetra)&#xd;
+	var restoDaString = login.slice(1);&#xd;
+	log.info(&quot;restoDaString: &quot;+restoDaString)&#xd;
+	var codusuario = primeiraLetra + restoDaString;&#xd;
+	&#xd;
+	var contexto = &quot;codcoligada=1;codusuario=&quot;+codusuario+&quot;;codsistema=N&quot;&#xd;
+		log.info(&quot;contexto: &quot;+contexto)&#xd;
+		&#xd;
+	var authService = getWebService(usuario, senha)&#xd;
+	log.info(&quot;authService: &quot;+authService)&#xd;
+	&#xd;
+	var idmov = hAPI.getCardValue(&quot;OSIDMOV&quot;) != &quot;&quot; ? hAPI.getCardValue(&quot;OSIDMOV&quot;) : &quot;-1&quot;;&#xd;
+	&#xd;
+&#xd;
+	//=================================================================================&#xd;
+	&#xd;
+	&#xd;
+	var regex = /^(TDE|TCM|TTP|TPE|TPA|TRB|TEH|TPC|TRE|TMH|TPH|TDV|TTT|LCM|LCR|LDE|LDV|LEH|LMN|LMP|LOB|LPC|LPE|LPG|LRC|LRE|LTE).*/&#xd;
+	if ( regex.test(hAPI.getCardValue(&quot;OBJETODEMANUTENCAO&quot;)) ){&#xd;
+	&#xd;
+		var nomeDataserver = &quot;MntHistIndicadorData&quot;;&#xd;
+		&#xd;
+		// Obtém a data atual&#xd;
+		var dataAtual = new Date();&#xd;
+		&#xd;
+		// Extrai os componentes da data&#xd;
+		var ano = dataAtual.getFullYear();&#xd;
+		var mes = (dataAtual.getMonth() + 1) &lt; 10 ? &quot;0&quot;+(dataAtual.getMonth() + 1) : (dataAtual.getMonth() + 1); // Os meses são indexados a partir de 0&#xd;
+		var dia = (dataAtual.getDate()) &lt; 10 ? &quot;0&quot;+(dataAtual.getDate()) : (dataAtual.getDate());&#xd;
+		var horas = (dataAtual.getHours()) &lt; 10 ? &quot;0&quot;+(dataAtual.getHours()) : (dataAtual.getHours());&#xd;
+		var minutos = (dataAtual.getMinutes()) &lt; 10 ? &quot;0&quot;+(dataAtual.getMinutes()) : (dataAtual.getMinutes());&#xd;
+		var segundos = (dataAtual.getSeconds()) &lt; 10 ? &quot;0&quot;+(dataAtual.getSeconds()) : (dataAtual.getSeconds());&#xd;
+		&#xd;
+		// Formata a data&#xd;
+		var dataFormatada = ano+&quot;-&quot;+mes+&quot;-&quot;+dia+&quot;T&quot;+horas+&quot;:&quot;+minutos+&quot;:&quot;+segundos&#xd;
+	            &#xd;
+		var dataColeta = hAPI.getCardValue(&quot;DATACOLETA&quot;).split(&quot; &quot;)[0]&#xd;
+		dataColeta = new Date(dataColeta.split(&quot;-&quot;)[0], dataColeta.split(&quot;-&quot;)[1]-1, dataColeta.split(&quot;-&quot;)[2]);&#xd;
+		log.error(&quot;DataColeta: &quot; + dataColeta);&#xd;
+		log.error(&quot;DataAtual: &quot; + new Date(ano, mes-1, dia));&#xd;
+		&#xd;
+		try{&#xd;
+			var c1_2 = DatasetFactory.createConstraint(&quot;IDOBJOF&quot;, hAPI.getCardValue(&quot;OBJETODEMANUTENCAO&quot;), hAPI.getCardValue(&quot;OBJETODEMANUTENCAO&quot;), ConstraintType.MUST);&#xd;
+			var constraints_2 = new Array(c1_2);&#xd;
+			var dataset_2 = DatasetFactory.getDataset(&quot;ds_OSE_HistoricoIndicadorDeUso&quot;, null, constraints_2, null);&#xd;
+			var horimetroAtual = dataset_2.getValue(0, &quot;VALORMEDIDOR1&quot;);&#xd;
+			var horimetroAcumulado = dataset_2.getValue(0, &quot;VALORACUMULADO1&quot;);&#xd;
+			var combustivelAtual = dataset_2.getValue(0, &quot;VALORMEDIDOR5&quot;) == &quot;null&quot; ? 0 : dataset_2.getValue(0, &quot;VALORMEDIDOR5&quot;);&#xd;
+			var combustivelAcumulado = dataset_2.getValue(0, &quot;VALORACUMULADO5&quot;) == &quot;null&quot; ? 0 : dataset_2.getValue(0, &quot;VALORACUMULADO5&quot;);&#xd;
+			var dataLancamento = dataset_2.getValue(0, &quot;DATALANCAMENTO&quot;).split(&quot; &quot;)[0];&#xd;
+		} catch (e) {&#xd;
+			log.error(e);&#xd;
+		}&#xd;
+		&#xd;
+		if ( parseFloat(horimetroAtual) &lt; parseFloat(hAPI.getCardValue(&quot;HORIMETROMEDIDOR&quot;)) ){&#xd;
+			horimetroAcumulado = parseFloat(horimetroAcumulado) + (parseFloat(hAPI.getCardValue(&quot;HORIMETROMEDIDOR&quot;)) - parseFloat(horimetroAtual));&#xd;
+		}&#xd;
+		if ( parseFloat(combustivelAtual) &lt; parseFloat(hAPI.getCardValue(&quot;VALORMEDIDOR5&quot;)) ){&#xd;
+			combustivelAcumulado = parseFloat(combustivelAcumulado) + (parseFloat(hAPI.getCardValue(&quot;VALORMEDIDOR5&quot;)) - parseFloat(combustivelAtual));&#xd;
+		}&#xd;
+		&#xd;
+		if ( ( new Date(ano, mes-1, dia).toISOString().split(&apos;T&apos;)[0] &gt; dataLancamento ) ||&#xd;
+				( dataLancamento == dataColeta.toISOString().split(&apos;T&apos;)[0] &amp;&amp;&#xd;
+						hAPI.getCardValue(&quot;HORIMETROMEDIDOR&quot;).replace(&quot;.&quot;, &quot;,&quot;) != horimetroAtual.replace(&quot;.&quot;, &quot;,&quot;) ) ){&#xd;
+		    //xml que envia as informaçoes para o RM    &#xd;
+			var xml = &quot;&lt;NewDataSet&gt;&quot;+&#xd;
+						&quot;&lt;OFHistIndicador&gt;&quot;+&#xd;
+					    &quot;&lt;CODCOLIGADA&gt;1&lt;/CODCOLIGADA&gt;&quot;+&#xd;
+						  &quot;&lt;IDOBJOF&gt;&quot; +hAPI.getCardValue(&quot;OBJETODEMANUTENCAO&quot;)+ &quot;&lt;/IDOBJOF&gt;&quot;+&#xd;
+							&quot;&lt;IDHISTINDICADOR&gt;-1&lt;/IDHISTINDICADOR&gt;&quot;+&#xd;
+							&quot;&lt;DATACOLETA&gt;&quot; +dataFormatada+ &quot;&lt;/DATACOLETA&gt;&quot;+&#xd;
+							&quot;&lt;CODUSUARIO&gt;&quot; +codusuario+ &quot;&lt;/CODUSUARIO&gt;&quot;+&#xd;
+							&quot;&lt;VALORMEDIDOR1&gt;&quot; +hAPI.getCardValue(&quot;HORIMETROMEDIDOR&quot;).replace(&quot;.&quot;, &quot;,&quot;)+ &quot;&lt;/VALORMEDIDOR1&gt;&quot;+&#xd;
+							&quot;&lt;VALORACUMULADO1&gt;&quot; +String(horimetroAcumulado).replace(&quot;.&quot;, &quot;,&quot;)+ &quot;&lt;/VALORACUMULADO1&gt;&quot;;&#xd;
+			&#xd;
+							if (hAPI.getCardValue(&quot;USAINDICADORUSO5&quot;) == &quot;1&quot;){&#xd;
+								xml = xml+&quot;&lt;VALORMEDIDOR5&gt;&quot; +hAPI.getCardValue(&quot;VALORMEDIDOR5&quot;).replace(&quot;.&quot;, &quot;,&quot;)+ &quot;&lt;/VALORMEDIDOR5&gt;&quot;+&#xd;
+								&quot;&lt;VALORACUMULADO5&gt;&quot; +String(combustivelAcumulado).replace(&quot;.&quot;, &quot;,&quot;)+ &quot;&lt;/VALORACUMULADO5&gt;&quot;;&#xd;
+							}&#xd;
+							&#xd;
+					xml = xml+&quot;&lt;/OFHistIndicador&gt;&quot;+&#xd;
+				&quot;&lt;/NewDataSet&gt;&quot;;&#xd;
+						&#xd;
+			var result = new String( authService.saveRecord(nomeDataserver, xml, contexto) );&#xd;
+			log.error(&quot;result: &quot;+result);&#xd;
+			&#xd;
+			if (result.split(&quot;;&quot;)[1] != hAPI.getCardValue(&quot;OBJETODEMANUTENCAO&quot;)){&#xd;
+				throw &quot;ERRO AO LANÇAR HORIMETRO DA MAQUINA\n\n&quot;+result.split(&quot;=&quot;)[0]+&quot;\n\n&quot;&#xd;
+			}&#xd;
+		} else {&#xd;
+			log.error(&quot;Não entrou no IF&quot;);&#xd;
+			log.error(&quot;=======================================================&quot;);&#xd;
+			log.error(&quot;new Date: &quot;+new Date(ano, mes-1, dia).toISOString().split(&apos;T&apos;)[0]);&#xd;
+			log.error(&quot;dataLancamento: &quot;+dataLancamento);&#xd;
+			log.error(&quot;=======================================================&quot;);&#xd;
+			log.error(&quot;dataLancamento: &quot;+dataLancamento);&#xd;
+			log.error(&quot;datacoleta: &quot;+dataColeta.toISOString().split(&apos;T&apos;)[0]);&#xd;
+			log.error(&quot;HORIMETROMEDIDOR: &quot;+hAPI.getCardValue(&quot;HORIMETROMEDIDOR&quot;).replace(&quot;.&quot;, &quot;,&quot;));&#xd;
+			log.error(&quot;horimetroAtual: &quot;+horimetroAtual.replace(&quot;.&quot;, &quot;,&quot;));&#xd;
+			log.error(&quot;=======================================================&quot;);&#xd;
+		}&#xd;
+	&#xd;
+	}&#xd;
+&#xd;
+	//=================================================================================&#xd;
+	&#xd;
+&#xd;
+	var nomeDataserver = &quot;MOVMOVIMENTOTBCDATA&quot;&#xd;
+	log.info(&quot;nomeDataserver: &quot;+nomeDataserver)&#xd;
+	&#xd;
+    //xml que envia as informaçoes para o RM    &#xd;
+	&#xd;
+	var xml = &quot;&quot;+&#xd;
+	&quot;&lt;MovMovimento&gt;&quot;+&#xd;
+	&#xd;
+	&quot;&lt;TMOV&gt;&quot;+&#xd;
+		&quot;&lt;CODCOLIGADA&gt;1&lt;/CODCOLIGADA&gt;&quot;+&#xd;
+		&quot;&lt;IDMOV&gt;&quot;+idmov+&quot;&lt;/IDMOV&gt;&quot;+&#xd;
+		&quot;&lt;CODFILIAL&gt;&quot;+hAPI.getCardValue(&quot;CODFILIAL&quot;)+&quot;&lt;/CODFILIAL&gt;&quot;+&#xd;
+		&quot;&lt;CODTMV&gt;1.1.20&lt;/CODTMV&gt;&quot;+&#xd;
+		&quot;&lt;CODLOC&gt;&quot;+hAPI.getCardValue(&quot;CODLOCALESTOQUE&quot;).trim()+&quot;&lt;/CODLOC&gt;&quot;+&#xd;
+		&quot;&lt;CODCCUSTO&gt;&quot;+hAPI.getCardValue(&quot;CODCENTRODECUSTO&quot;)+&quot;&lt;/CODCCUSTO&gt;&quot;+&#xd;
+		&quot;&lt;CODDEPARTAMENTO&gt;&quot;+hAPI.getCardValue(&quot;CODDEPARTAMENTO&quot;)+&quot;&lt;/CODDEPARTAMENTO&gt;&quot;+&#xd;
+		&quot;&lt;CODTB1FAT&gt;02&lt;/CODTB1FAT&gt;&quot;+&#xd;
+		&quot;&lt;CODTB3FAT&gt;&quot;+hAPI.getCardValue(&quot;IDCLASSEDECOMPRA&quot;)+&quot;&lt;/CODTB3FAT&gt;&quot;+&#xd;
+		&quot;&lt;HISTORICOLONGO&gt;&quot;+hAPI.getCardValue(&quot;SERVICOASEREXECUTADO&quot;)+&quot;&lt;/HISTORICOLONGO&gt;&quot;+&#xd;
+		&quot;&lt;IDCLASSMOV&gt;&quot;+hAPI.getCardValue(&quot;IDCLASSEDAMANUTENCAO&quot;)+&quot;&lt;/IDCLASSMOV&gt;&quot;+&#xd;
+		&quot;&lt;IDOBJOF&gt;&quot;+hAPI.getCardValue(&quot;OBJETODEMANUTENCAO&quot;)+&quot;&lt;/IDOBJOF&gt;&quot;;&#xd;
+		//&quot;&lt;CODCFO&gt;&quot;+hAPI.getCardValue(&quot;CODCFO&quot;)+&quot;&lt;/CODCFO&gt;&quot;;&#xd;
+	&#xd;
+		if (hAPI.getCardValue(&quot;CHAPARESP&quot;) == &quot;NÃO PREENCHIDO NO TOTVS&quot;){&#xd;
+			xml = xml+&quot;&lt;CHAPARESP&gt;004738&lt;/CHAPARESP&gt;&quot;;&#xd;
+		} else {&#xd;
+			xml = xml+&quot;&lt;CHAPARESP&gt;&quot;+hAPI.getCardValue(&quot;CHAPARESP&quot;)+&quot;&lt;/CHAPARESP&gt;&quot;;&#xd;
+		}&#xd;
+	xml = xml+&quot;&lt;/TMOV&gt;&quot;;	&#xd;
+	&#xd;
+	var NSEQITMMOV = 1;&#xd;
+	var indexes = hAPI.getChildrenIndexes(&quot;TABELA_PECAORIGINAL&quot;);&#xd;
+&#xd;
+	for (var i = 1; i &lt;= indexes.length; ++i) {&#xd;
+		var temValor = hAPI.getCardValue(&quot;IDPRDPECAORIGINAL___&quot;+i) == &quot;&quot; ? true :&#xd;
+						   hAPI.getCardValue(&quot;QUANTIDADEPECAORIGINAL___&quot;+i) == &quot;&quot; ? true :&#xd;
+							   hAPI.getCardValue(&quot;ULTIMOPRECOPECAORIGINAL___&quot;+i) == &quot;&quot; ? true :&#xd;
+								   hAPI.getCardValue(&quot;CODCOMPONENTESPECAORIGINAL___&quot;+i) == &quot;&quot; ? true : false;&#xd;
+		if (!temValor){&#xd;
+			xml = xml+&quot;&lt;TITMMOV&gt;&quot;+&#xd;
+				&quot;&lt;CODCOLIGADA&gt;1&lt;/CODCOLIGADA&gt;&quot;+&#xd;
+				&quot;&lt;IDMOV&gt;&quot;+idmov+&quot;&lt;/IDMOV&gt;&quot;+&#xd;
+				&quot;&lt;NSEQITMMOV&gt;&quot;+NSEQITMMOV+&quot;&lt;/NSEQITMMOV&gt;&quot;+&#xd;
+				&quot;&lt;CODCCUSTO&gt;&quot;+hAPI.getCardValue(&quot;CODCENTRODECUSTO&quot;)+&quot;&lt;/CODCCUSTO&gt;&quot;+&#xd;
+				&quot;&lt;CODDEPARTAMENTO&gt;&quot;+hAPI.getCardValue(&quot;CODDEPARTAMENTO&quot;)+&quot;&lt;/CODDEPARTAMENTO&gt;&quot;+&#xd;
+				&quot;&lt;IDPRD&gt;&quot;+hAPI.getCardValue(&quot;IDPRDPECAORIGINAL___&quot;+i)+&quot;&lt;/IDPRD&gt;&quot;+&#xd;
+				&quot;&lt;QUANTIDADE&gt;&quot;+hAPI.getCardValue(&quot;QUANTIDADEPECAORIGINAL___&quot;+i).replace(&quot;.&quot;,&quot;,&quot;)+&quot;&lt;/QUANTIDADE&gt;&quot;+&#xd;
+				&quot;&lt;PRECOUNITARIO&gt;&quot;+hAPI.getCardValue(&quot;ULTIMOPRECOPECAORIGINAL___&quot;+i).replace(&quot;.&quot;,&quot;,&quot;)+&quot;&lt;/PRECOUNITARIO&gt;&quot;+&#xd;
+				&quot;&lt;CODTB2FAT&gt;&quot;+hAPI.getCardValue(&quot;CODCOMPONENTESPECAORIGINAL___&quot;+1)+&quot;&lt;/CODTB2FAT&gt;&quot;+&#xd;
+				&quot;&lt;IDOBJOFICINA&gt;&quot;+hAPI.getCardValue(&quot;OBJETODEMANUTENCAO&quot;)+&quot;&lt;/IDOBJOFICINA&gt;&quot;+&#xd;
+				&quot;&lt;IDTIPOOBJ&gt;&quot;+hAPI.getCardValue(&quot;CODTIPOOBJ&quot;)+&quot;&lt;/IDTIPOOBJ&gt;&quot;+&#xd;
+		 	&quot;&lt;/TITMMOV&gt;&quot;;&#xd;
+			NSEQITMMOV++;&#xd;
+		}&#xd;
+	}&#xd;
+	//==================================================================================================&#xd;
+	var indexes = hAPI.getChildrenIndexes(&quot;TABELA_PECAAUXILIAR&quot;);&#xd;
+&#xd;
+	for (var i = 1; i &lt;= indexes.length; ++i) {&#xd;
+		var temValor = hAPI.getCardValue(&quot;IDPRDPECAAUXILIAR___&quot;+i) == &quot;&quot; ? true :&#xd;
+						   hAPI.getCardValue(&quot;QUANTIDADEPECAAUXILIAR___&quot;+i) == &quot;&quot; ? true :&#xd;
+							   hAPI.getCardValue(&quot;ULTIMOPRECOPECAAUXILIAR___&quot;+i) == &quot;&quot; ? true :&#xd;
+								   hAPI.getCardValue(&quot;CODCOMPONENTESPECAAUXILIAR___&quot;+i) == &quot;&quot; ? true : false;&#xd;
+		if (!temValor){&#xd;
+			xml = xml+&quot;&lt;TITMMOV&gt;&quot;+&#xd;
+				&quot;&lt;CODCOLIGADA&gt;1&lt;/CODCOLIGADA&gt;&quot;+&#xd;
+				&quot;&lt;IDMOV&gt;&quot;+idmov+&quot;&lt;/IDMOV&gt;&quot;+&#xd;
+				&quot;&lt;NSEQITMMOV&gt;&quot;+NSEQITMMOV+&quot;&lt;/NSEQITMMOV&gt;&quot;+&#xd;
+				&quot;&lt;CODCCUSTO&gt;&quot;+hAPI.getCardValue(&quot;CODCENTRODECUSTO&quot;)+&quot;&lt;/CODCCUSTO&gt;&quot;+&#xd;
+				&quot;&lt;CODDEPARTAMENTO&gt;&quot;+hAPI.getCardValue(&quot;CODDEPARTAMENTO&quot;)+&quot;&lt;/CODDEPARTAMENTO&gt;&quot;+&#xd;
+				&quot;&lt;IDPRD&gt;&quot;+hAPI.getCardValue(&quot;IDPRDPECAAUXILIAR___&quot;+i)+&quot;&lt;/IDPRD&gt;&quot;+&#xd;
+				&quot;&lt;QUANTIDADE&gt;&quot;+hAPI.getCardValue(&quot;QUANTIDADEPECAAUXILIAR___&quot;+i).replace(&quot;.&quot;,&quot;,&quot;)+&quot;&lt;/QUANTIDADE&gt;&quot;+&#xd;
+				&quot;&lt;PRECOUNITARIO&gt;&quot;+hAPI.getCardValue(&quot;ULTIMOPRECOPECAAUXILIAR___&quot;+i).replace(&quot;.&quot;,&quot;,&quot;)+&quot;&lt;/PRECOUNITARIO&gt;&quot;+&#xd;
+				&quot;&lt;CODTB2FAT&gt;&quot;+hAPI.getCardValue(&quot;CODCOMPONENTESPECAAUXILIAR___&quot;+1)+&quot;&lt;/CODTB2FAT&gt;&quot;+&#xd;
+				&quot;&lt;IDOBJOFICINA&gt;&quot;+hAPI.getCardValue(&quot;OBJETODEMANUTENCAO&quot;)+&quot;&lt;/IDOBJOFICINA&gt;&quot;+&#xd;
+				&quot;&lt;IDTIPOOBJ&gt;&quot;+hAPI.getCardValue(&quot;CODTIPOOBJ&quot;)+&quot;&lt;/IDTIPOOBJ&gt;&quot;+&#xd;
+		 	&quot;&lt;/TITMMOV&gt;&quot;;&#xd;
+			NSEQITMMOV++;&#xd;
+		}&#xd;
+	}&#xd;
+	//==================================================================================================&#xd;
+	var indexes = hAPI.getChildrenIndexes(&quot;TABELA_PNEUS&quot;);&#xd;
+&#xd;
+	for (var i = 1; i &lt;= indexes.length; ++i) {&#xd;
+		var temValor = hAPI.getCardValue(&quot;IDPRDPNEUS___&quot;+i) == &quot;&quot; ? true :&#xd;
+						   hAPI.getCardValue(&quot;QUANTIDADEPNEUS___&quot;+i) == &quot;&quot; ? true :&#xd;
+							   hAPI.getCardValue(&quot;ULTIMOPRECOPNEUS___&quot;+i) == &quot;&quot; ? true :&#xd;
+								   hAPI.getCardValue(&quot;CODCOMPONENTESPNEUS___&quot;+i) == &quot;&quot; ? true : false;&#xd;
+		if (!temValor){&#xd;
+			xml = xml+&quot;&lt;TITMMOV&gt;&quot;+&#xd;
+				&quot;&lt;CODCOLIGADA&gt;1&lt;/CODCOLIGADA&gt;&quot;+&#xd;
+				&quot;&lt;IDMOV&gt;&quot;+idmov+&quot;&lt;/IDMOV&gt;&quot;+&#xd;
+				&quot;&lt;NSEQITMMOV&gt;&quot;+NSEQITMMOV+&quot;&lt;/NSEQITMMOV&gt;&quot;+&#xd;
+				&quot;&lt;CODCCUSTO&gt;&quot;+hAPI.getCardValue(&quot;CODCENTRODECUSTO&quot;)+&quot;&lt;/CODCCUSTO&gt;&quot;+&#xd;
+				&quot;&lt;CODDEPARTAMENTO&gt;&quot;+hAPI.getCardValue(&quot;CODDEPARTAMENTO&quot;)+&quot;&lt;/CODDEPARTAMENTO&gt;&quot;+&#xd;
+				&quot;&lt;IDPRD&gt;&quot;+hAPI.getCardValue(&quot;IDPRDPNEUS___&quot;+i)+&quot;&lt;/IDPRD&gt;&quot;+&#xd;
+				&quot;&lt;QUANTIDADE&gt;&quot;+hAPI.getCardValue(&quot;QUANTIDADEPNEUS___&quot;+i).replace(&quot;.&quot;,&quot;,&quot;)+&quot;&lt;/QUANTIDADE&gt;&quot;+&#xd;
+				&quot;&lt;PRECOUNITARIO&gt;&quot;+hAPI.getCardValue(&quot;ULTIMOPRECOPNEUS___&quot;+i).replace(&quot;.&quot;,&quot;,&quot;)+&quot;&lt;/PRECOUNITARIO&gt;&quot;+&#xd;
+				&quot;&lt;CODTB2FAT&gt;&quot;+hAPI.getCardValue(&quot;CODCOMPONENTESPNEUS___&quot;+i)+&quot;&lt;/CODTB2FAT&gt;&quot;+&#xd;
+				&quot;&lt;IDOBJOFICINA&gt;&quot;+hAPI.getCardValue(&quot;OBJETODEMANUTENCAO&quot;)+&quot;&lt;/IDOBJOFICINA&gt;&quot;+&#xd;
+				&quot;&lt;IDTIPOOBJ&gt;&quot;+hAPI.getCardValue(&quot;CODTIPOOBJ&quot;)+&quot;&lt;/IDTIPOOBJ&gt;&quot;+&#xd;
+		 	&quot;&lt;/TITMMOV&gt;&quot;;&#xd;
+			NSEQITMMOV++;&#xd;
+		}&#xd;
+	}&#xd;
+	//==================================================================================================&#xd;
+	var indexes = hAPI.getChildrenIndexes(&quot;TABELA_OLEOS&quot;);&#xd;
+&#xd;
+	for (var i = 1; i &lt;= indexes.length; ++i) {&#xd;
+		var temValor = hAPI.getCardValue(&quot;IDPRDOLEO___&quot;+i) == &quot;&quot; ? true :&#xd;
+						   hAPI.getCardValue(&quot;QUANTIDADEOLEO___&quot;+i) == &quot;&quot; ? true :&#xd;
+							   hAPI.getCardValue(&quot;ULTIMOPRECOOLEO___&quot;+i) == &quot;&quot; ? true :&#xd;
+								   hAPI.getCardValue(&quot;CODCOMPONENTESOLEO___&quot;+i) == &quot;&quot; ? true : false;&#xd;
+		if (!temValor){&#xd;
+			xml = xml+&quot;&lt;TITMMOV&gt;&quot;+&#xd;
+				&quot;&lt;CODCOLIGADA&gt;1&lt;/CODCOLIGADA&gt;&quot;+&#xd;
+				&quot;&lt;IDMOV&gt;&quot;+idmov+&quot;&lt;/IDMOV&gt;&quot;+&#xd;
+				&quot;&lt;NSEQITMMOV&gt;&quot;+NSEQITMMOV+&quot;&lt;/NSEQITMMOV&gt;&quot;+&#xd;
+				&quot;&lt;CODCCUSTO&gt;&quot;+hAPI.getCardValue(&quot;CODCENTRODECUSTO&quot;)+&quot;&lt;/CODCCUSTO&gt;&quot;+&#xd;
+				&quot;&lt;CODDEPARTAMENTO&gt;&quot;+hAPI.getCardValue(&quot;CODDEPARTAMENTO&quot;)+&quot;&lt;/CODDEPARTAMENTO&gt;&quot;+&#xd;
+				&quot;&lt;IDPRD&gt;&quot;+hAPI.getCardValue(&quot;IDPRDOLEO___&quot;+i)+&quot;&lt;/IDPRD&gt;&quot;+&#xd;
+				&quot;&lt;QUANTIDADE&gt;&quot;+hAPI.getCardValue(&quot;QUANTIDADEOLEO___&quot;+i).replace(&quot;.&quot;,&quot;,&quot;)+&quot;&lt;/QUANTIDADE&gt;&quot;+&#xd;
+				&quot;&lt;PRECOUNITARIO&gt;&quot;+hAPI.getCardValue(&quot;ULTIMOPRECOOLEO___&quot;+i).replace(&quot;.&quot;,&quot;,&quot;)+&quot;&lt;/PRECOUNITARIO&gt;&quot;+&#xd;
+				&quot;&lt;CODTB2FAT&gt;&quot;+hAPI.getCardValue(&quot;CODCOMPONENTESOLEO___&quot;+1)+&quot;&lt;/CODTB2FAT&gt;&quot;+&#xd;
+				&quot;&lt;IDOBJOFICINA&gt;&quot;+hAPI.getCardValue(&quot;OBJETODEMANUTENCAO&quot;)+&quot;&lt;/IDOBJOFICINA&gt;&quot;+&#xd;
+				&quot;&lt;IDTIPOOBJ&gt;&quot;+hAPI.getCardValue(&quot;CODTIPOOBJ&quot;)+&quot;&lt;/IDTIPOOBJ&gt;&quot;+&#xd;
+		 	&quot;&lt;/TITMMOV&gt;&quot;;&#xd;
+			NSEQITMMOV++;&#xd;
+		}&#xd;
+	}&#xd;
+	//==================================================================================================&#xd;
+	var indexes = hAPI.getChildrenIndexes(&quot;TABELA_SERVICOSINTERNOS&quot;);&#xd;
+&#xd;
+	for (var i = 1; i &lt;= indexes.length; ++i) {&#xd;
+		var temValor = hAPI.getCardValue(&quot;IDPRDSERVICOINTERNO___&quot;+i) == &quot;&quot; ? true :&#xd;
+						   hAPI.getCardValue(&quot;QUANTIDADESERVICOINTERNO___&quot;+i) == &quot;&quot; ? true :&#xd;
+							   hAPI.getCardValue(&quot;ULTIMOPRECOSERVICOINTERNO___&quot;+i) == &quot;&quot; ? true :&#xd;
+								   hAPI.getCardValue(&quot;CODCOMPONENTESSERVINTERNO___&quot;+i) == &quot;&quot; ? true : false;&#xd;
+		if (!temValor){&#xd;
+			xml = xml+&quot;&lt;TITMMOV&gt;&quot;+&#xd;
+				&quot;&lt;CODCOLIGADA&gt;1&lt;/CODCOLIGADA&gt;&quot;+&#xd;
+				&quot;&lt;IDMOV&gt;&quot;+idmov+&quot;&lt;/IDMOV&gt;&quot;+&#xd;
+				&quot;&lt;NSEQITMMOV&gt;&quot;+NSEQITMMOV+&quot;&lt;/NSEQITMMOV&gt;&quot;+&#xd;
+				&quot;&lt;CODCCUSTO&gt;&quot;+hAPI.getCardValue(&quot;CODCENTRODECUSTO&quot;)+&quot;&lt;/CODCCUSTO&gt;&quot;+&#xd;
+				&quot;&lt;CODDEPARTAMENTO&gt;&quot;+hAPI.getCardValue(&quot;CODDEPARTAMENTO&quot;)+&quot;&lt;/CODDEPARTAMENTO&gt;&quot;+&#xd;
+				&quot;&lt;IDPRD&gt;&quot;+hAPI.getCardValue(&quot;IDPRDSERVICOINTERNO___&quot;+i)+&quot;&lt;/IDPRD&gt;&quot;+&#xd;
+				&quot;&lt;QUANTIDADE&gt;&quot;+hAPI.getCardValue(&quot;QUANTIDADESERVICOINTERNO___&quot;+i).replace(&quot;.&quot;,&quot;,&quot;)+&quot;&lt;/QUANTIDADE&gt;&quot;+&#xd;
+				&quot;&lt;PRECOUNITARIO&gt;&quot;+hAPI.getCardValue(&quot;ULTIMOPRECOSERVICOINTERNO___&quot;+i).replace(&quot;.&quot;,&quot;,&quot;)+&quot;&lt;/PRECOUNITARIO&gt;&quot;+&#xd;
+				&quot;&lt;CODTB2FAT&gt;&quot;+hAPI.getCardValue(&quot;CODCOMPONENTESSERVINTERNO___&quot;+1)+&quot;&lt;/CODTB2FAT&gt;&quot;+&#xd;
+				&quot;&lt;IDOBJOFICINA&gt;&quot;+hAPI.getCardValue(&quot;OBJETODEMANUTENCAO&quot;)+&quot;&lt;/IDOBJOFICINA&gt;&quot;+&#xd;
+				&quot;&lt;IDTIPOOBJ&gt;&quot;+hAPI.getCardValue(&quot;CODTIPOOBJ&quot;)+&quot;&lt;/IDTIPOOBJ&gt;&quot;+&#xd;
+		 	&quot;&lt;/TITMMOV&gt;&quot;;&#xd;
+			NSEQITMMOV++;&#xd;
+		}&#xd;
+	}&#xd;
+	//==================================================================================================&#xd;
+	var indexes = hAPI.getChildrenIndexes(&quot;TABELA_SERVICOSEXTERNOS&quot;);&#xd;
+&#xd;
+	for (var i = 1; i &lt;= indexes.length; ++i) {&#xd;
+		var temValor = hAPI.getCardValue(&quot;IDPRDSERVICOEXTERNO___&quot;+i) == &quot;&quot; ? true :&#xd;
+						   hAPI.getCardValue(&quot;QUANTIDADESERVICOEXTERNO___&quot;+i) == &quot;&quot; ? true :&#xd;
+							   hAPI.getCardValue(&quot;ULTIMOPRECOSERVICOEXTERNO___&quot;+i) == &quot;&quot; ? true :&#xd;
+								   hAPI.getCardValue(&quot;CODCOMPONENTESSERVEXTERNO___&quot;+i) == &quot;&quot; ? true : false;&#xd;
+		if (!temValor){&#xd;
+				xml = xml+&quot;&lt;TITMMOV&gt;&quot;+&#xd;
+					&quot;&lt;CODCOLIGADA&gt;1&lt;/CODCOLIGADA&gt;&quot;+&#xd;
+					&quot;&lt;IDMOV&gt;&quot;+idmov+&quot;&lt;/IDMOV&gt;&quot;+&#xd;
+					&quot;&lt;NSEQITMMOV&gt;&quot;+NSEQITMMOV+&quot;&lt;/NSEQITMMOV&gt;&quot;+&#xd;
+					&quot;&lt;CODCCUSTO&gt;&quot;+hAPI.getCardValue(&quot;CODCENTRODECUSTO&quot;)+&quot;&lt;/CODCCUSTO&gt;&quot;+&#xd;
+					&quot;&lt;CODDEPARTAMENTO&gt;&quot;+hAPI.getCardValue(&quot;CODDEPARTAMENTO&quot;)+&quot;&lt;/CODDEPARTAMENTO&gt;&quot;+&#xd;
+					&quot;&lt;IDPRD&gt;&quot;+hAPI.getCardValue(&quot;IDPRDSERVICOEXTERNO___&quot;+i)+&quot;&lt;/IDPRD&gt;&quot;+&#xd;
+					&quot;&lt;QUANTIDADE&gt;&quot;+hAPI.getCardValue(&quot;QUANTIDADESERVICOEXTERNO___&quot;+i).replace(&quot;.&quot;,&quot;,&quot;)+&quot;&lt;/QUANTIDADE&gt;&quot;+&#xd;
+					&quot;&lt;PRECOUNITARIO&gt;&quot;+hAPI.getCardValue(&quot;ULTIMOPRECOSERVICOEXTERNO___&quot;+i).replace(&quot;.&quot;,&quot;,&quot;)+&quot;&lt;/PRECOUNITARIO&gt;&quot;+&#xd;
+					&quot;&lt;CODTB2FAT&gt;&quot;+hAPI.getCardValue(&quot;CODCOMPONENTESSERVEXTERNO___&quot;+1)+&quot;&lt;/CODTB2FAT&gt;&quot;+&#xd;
+					&quot;&lt;IDOBJOFICINA&gt;&quot;+hAPI.getCardValue(&quot;OBJETODEMANUTENCAO&quot;)+&quot;&lt;/IDOBJOFICINA&gt;&quot;+&#xd;
+					&quot;&lt;IDTIPOOBJ&gt;&quot;+hAPI.getCardValue(&quot;CODTIPOOBJ&quot;)+&quot;&lt;/IDTIPOOBJ&gt;&quot;+&#xd;
+			 	&quot;&lt;/TITMMOV&gt;&quot;;&#xd;
+				NSEQITMMOV++;&#xd;
+		}&#xd;
+	}&#xd;
+ 	&#xd;
+	xml = xml+&quot;&lt;/MovMovimento&gt;&quot;;&#xd;
+			&#xd;
+			log.error(&quot;xml: &quot;)&#xd;
+			log.error(xml)&#xd;
+			&#xd;
+				&#xd;
+	var result = new String( authService.saveRecord(nomeDataserver, xml, contexto) );&#xd;
+	hAPI.setCardValue(&quot;OSIDMOV&quot;, result.split(&quot;;&quot;)[1])&#xd;
+	log.error(&quot;result: &quot;+result);&#xd;
+	//String DataServerName, String XML, String UserName, String UserPassword, String contexto, String emailUsuarioContexto&#xd;
+	&#xd;
+	if (result.split(&quot;;&quot;)[0] != &quot;1&quot;){&#xd;
+		throw &quot;ERRO AO CRIAR A OS\n\n&quot;+result.split(&quot;=&quot;)[0]+&quot;\n\n&quot;&#xd;
+		&#xd;
+	} else {&#xd;
+		var dataset = DatasetFactory.getDataset(&quot;ds_OSE_Numero_OS&quot;, &#xd;
+				        null, &#xd;
+				        [DatasetFactory.createConstraint(&quot;IDMOV&quot;, result.split(&quot;;&quot;)[1], result.split(&quot;;&quot;)[1], ConstraintType.MUST)],&#xd;
+				        null);&#xd;
+		hAPI.setCardValue(&quot;OSNUMEROMOV&quot;,  dataset.getValue(0, &quot;NUMEROMOV&quot;))&#xd;
+	}&#xd;
+	&#xd;
+	try{&#xd;
+		//Execução a seguir altera a OS criada do status &quot;normal&quot; para o &quot;Aguardando Análise&quot;&#xd;
+		var xml = &quot;&lt;MovMovimento&gt;&quot;+&#xd;
+					  &quot;&lt;TMOV&gt;&quot;+&#xd;
+					    &quot;&lt;CODCOLIGADA&gt;1&lt;/CODCOLIGADA&gt;&quot;+&#xd;
+					    &quot;&lt;IDMOV&gt;&quot;+result.split(&quot;;&quot;)[1]+&quot;&lt;/IDMOV&gt;&quot;+&#xd;
+					    &quot;&lt;STATUS&gt;O&lt;/STATUS&gt;&quot;+&#xd;
+					  &quot;&lt;/TMOV&gt;&quot;+&#xd;
+					  &quot;&lt;TMOVCOMPL&gt;&quot;+&#xd;
+						&quot;&lt;CODCOLIGADA&gt;1&lt;/CODCOLIGADA&gt;&quot;+&#xd;
+						&quot;&lt;IDMOV&gt;&quot;+result.split(&quot;;&quot;)[1]+&quot;&lt;/IDMOV&gt;&quot;+&#xd;
+						&quot;&lt;NFLUIG&gt;&quot;+getValue(&quot;WKNumProces&quot;).toString()+&quot;&lt;/NFLUIG&gt;&quot;+&#xd;
+					  &quot;&lt;/TMOVCOMPL&gt;&quot;+&#xd;
+					&quot;&lt;/MovMovimento&gt;&quot;;&#xd;
+					    &#xd;
+		var result = new String( authService.saveRecord(nomeDataserver, xml, contexto) );&#xd;
+		log.error(&quot;result Status: &quot;+result);&#xd;
+		&#xd;
+		if (result.split(&quot;;&quot;)[0] != &quot;1&quot;){&#xd;
+			throw &quot;ERRO AO PREENCHER STATUS CORRETO DA OS\n\n&quot;+result.split(&quot;=&quot;)[0]+&quot;\n\n&quot;&#xd;
+		}&#xd;
+	}catch (e){&#xd;
+		throw e&#xd;
+	}&#xd;
+}&#xd;
+&#xd;
+function finalizacaoOSCorretiva(){&#xd;
+	&#xd;
+	var nomeDataserver = &quot;MOVMOVIMENTOTBCDATA&quot;&#xd;
+	log.info(&quot;nomeDataserver: &quot;+nomeDataserver)&#xd;
+	&#xd;
+	var user = DatasetFactory.getDataset(&quot;ds_connector&quot;, null, null, null);&#xd;
+	log.info(&quot;user: &quot;+user)&#xd;
+	&#xd;
+	var usuario = user.getValue(0, &quot;INTEGRADOR&quot;)&#xd;
+	log.info(&quot;usuario: &quot;+usuario)&#xd;
+	var senha = user.getValue(0, &quot;SENHA&quot;)&#xd;
+	//log.info(&quot;senha: &quot;+senha)&#xd;
+	var email = user.getValue(0, &quot;EMAIL&quot;)&#xd;
+	log.info(&quot;email: &quot;+email)&#xd;
+&#xd;
+	var login = fluigAPI.getUserService().getCurrent().getLogin();&#xd;
+	var primeiraLetra = login.substring(0, 1).toUpperCase();&#xd;
+	log.info(&quot;primeiraLetra: &quot;+primeiraLetra)&#xd;
+	var restoDaString = login.slice(1);&#xd;
+	log.info(&quot;restoDaString: &quot;+restoDaString)&#xd;
+	var codusuario = primeiraLetra + restoDaString;&#xd;
+	&#xd;
+	var contexto = &quot;codcoligada=1;codusuario=&quot;+codusuario+&quot;;codsistema=N&quot;&#xd;
+		log.info(&quot;contexto: &quot;+contexto)&#xd;
+		&#xd;
+	var authService = getWebService(usuario, senha)&#xd;
+	log.info(&quot;authService: &quot;+authService)&#xd;
+	&#xd;
+	// Obtém a data atual&#xd;
+	var dataAtual = new Date();&#xd;
+	&#xd;
+	// Extrai os componentes da data&#xd;
+	var ano = dataAtual.getFullYear();&#xd;
+	var mes = (dataAtual.getMonth() + 1) &lt; 10 ? &quot;0&quot;+(dataAtual.getMonth() + 1) : (dataAtual.getMonth() + 1); // Os meses são indexados a partir de 0&#xd;
+	var dia = (dataAtual.getDate()) &lt; 10 ? &quot;0&quot;+(dataAtual.getDate()) : (dataAtual.getDate());&#xd;
+	var horas = (dataAtual.getHours()) &lt; 10 ? &quot;0&quot;+(dataAtual.getHours()) : (dataAtual.getHours());&#xd;
+	var minutos = (dataAtual.getMinutes()) &lt; 10 ? &quot;0&quot;+(dataAtual.getMinutes()) : (dataAtual.getMinutes());&#xd;
+	var segundos = (dataAtual.getSeconds()) &lt; 10 ? &quot;0&quot;+(dataAtual.getSeconds()) : (dataAtual.getSeconds());&#xd;
+	&#xd;
+	// Formata a data&#xd;
+	var dataFormatada = ano+&quot;-&quot;+mes+&quot;-&quot;+dia+&quot;T&quot;+horas+&quot;:&quot;+minutos+&quot;:&quot;+segundos&#xd;
+	&#xd;
+	var historicoLongo = String(hAPI.getCardValue(&quot;SERVICOASEREXECUTADO&quot;)).replace(/\r?\n/g, &apos;\n&apos;) + &apos;\n&apos; + String(hAPI.getCardValue(&quot;SOLUCAO&quot;)).replace(/\r?\n/g, &apos;\n&apos;);&#xd;
+	&#xd;
+	var xml = &quot;&lt;MovMovimento&gt;&quot;+&#xd;
+				  &quot;&lt;TMOV&gt;&quot;+&#xd;
+				    &quot;&lt;CODCOLIGADA&gt;1&lt;/CODCOLIGADA&gt;&quot;+&#xd;
+				    &quot;&lt;IDMOV&gt;&quot;+hAPI.getCardValue(&quot;OSIDMOV&quot;)+&quot;&lt;/IDMOV&gt;&quot;+&#xd;
+				    &quot;&lt;STATUS&gt;Z&lt;/STATUS&gt;&quot;+&#xd;
+				    &quot;&lt;DATAEXTRA1&gt;&quot;+dataFormatada+&quot;&lt;/DATAEXTRA1&gt;&quot;+&#xd;
+				    &quot;&lt;DATAEXTRA2&gt;&quot;+dataFormatada+&quot;&lt;/DATAEXTRA2&gt;&quot;+&#xd;
+					&quot;&lt;HISTORICOLONGO&gt;&quot;+historicoLongo+&quot;&lt;/HISTORICOLONGO&gt;&quot;+&#xd;
+				  &quot;&lt;/TMOV&gt;&quot;+&#xd;
+				  &quot;&lt;TMOVCOMPL&gt;&quot;+&#xd;
+					&quot;&lt;CODCOLIGADA&gt;1&lt;/CODCOLIGADA&gt;&quot;+&#xd;
+					&quot;&lt;IDMOV&gt;&quot;+hAPI.getCardValue(&quot;OSIDMOV&quot;)+&quot;&lt;/IDMOV&gt;&quot;+&#xd;
+					&quot;&lt;ATUALIZACAO2&gt;&quot;+dataFormatada+&quot;&lt;/ATUALIZACAO2&gt;&quot;+&#xd;
+				  &quot;&lt;/TMOVCOMPL&gt;&quot;+&#xd;
+				&quot;&lt;/MovMovimento&gt;&quot;;&#xd;
+&#xd;
+	log.error(&quot;xml: &quot;)&#xd;
+	log.error(xml)&#xd;
+				    &#xd;
+	var result = new String( authService.saveRecord(nomeDataserver, xml, contexto) );&#xd;
+	log.error(&quot;result Status: &quot;+result);&#xd;
+	if (result != (&quot;1;&quot;+hAPI.getCardValue(&quot;OSIDMOV&quot;))){&#xd;
+		throw &quot;ERRO AO FINALIZAR OS\n\n&quot;+result.split(&quot;=&quot;)[0]+&quot;\n\n&quot;&#xd;
+	}&#xd;
+		&#xd;
+}&#xd;
+&#xd;
+function criaFinalizaOSCorretiva(){&#xd;
+	&#xd;
+	var nomeDataserver = &quot;MOVMOVIMENTOTBCDATA&quot;&#xd;
+	log.info(&quot;nomeDataserver: &quot;+nomeDataserver)&#xd;
+	&#xd;
+	var user = DatasetFactory.getDataset(&quot;ds_connector&quot;, null, null, null);&#xd;
+	log.info(&quot;user: &quot;+user)&#xd;
+	&#xd;
+	var usuario = user.getValue(0, &quot;INTEGRADOR&quot;)&#xd;
+	log.info(&quot;usuario: &quot;+usuario)&#xd;
+	var senha = user.getValue(0, &quot;SENHA&quot;)&#xd;
+	//log.info(&quot;senha: &quot;+senha)&#xd;
+	var email = user.getValue(0, &quot;EMAIL&quot;)&#xd;
+	log.info(&quot;email: &quot;+email)&#xd;
+	&#xd;
+	var login = fluigAPI.getUserService().getCurrent().getLogin();&#xd;
+	var primeiraLetra = login.substring(0, 1).toUpperCase();&#xd;
+	log.info(&quot;primeiraLetra: &quot;+primeiraLetra)&#xd;
+	var restoDaString = login.slice(1);&#xd;
+	log.info(&quot;restoDaString: &quot;+restoDaString)&#xd;
+	var codusuario = primeiraLetra + restoDaString;&#xd;
+	&#xd;
+	var contexto = &quot;codcoligada=1;codusuario=&quot;+codusuario+&quot;;codsistema=N&quot;;&#xd;
+		log.info(&quot;contexto: &quot;+contexto)&#xd;
+		&#xd;
+	var authService = getWebService(usuario, senha)&#xd;
+	log.info(&quot;authService: &quot;+authService)&#xd;
+	&#xd;
+    //xml que envia as informaçoes para o RM    &#xd;
+	var xml = &quot;&quot;+&#xd;
+	&quot;&lt;MovMovimento&gt;&quot;+&#xd;
+	&#xd;
+	&quot;&lt;TMOV&gt;&quot;+&#xd;
+		&quot;&lt;CODCOLIGADA&gt;1&lt;/CODCOLIGADA&gt;&quot;+&#xd;
+		&quot;&lt;IDMOV&gt;-1&lt;/IDMOV&gt;&quot;+&#xd;
+		&quot;&lt;CODFILIAL&gt;&quot;+hAPI.getCardValue(&quot;CODFILIAL&quot;)+&quot;&lt;/CODFILIAL&gt;&quot;+&#xd;
+		&quot;&lt;CODTMV&gt;1.1.20&lt;/CODTMV&gt;&quot;+&#xd;
+		&quot;&lt;CODLOC&gt;&quot;+hAPI.getCardValue(&quot;CODLOCALESTOQUE&quot;).trim()+&quot;&lt;/CODLOC&gt;&quot;+&#xd;
+		&quot;&lt;CODCCUSTO&gt;&quot;+hAPI.getCardValue(&quot;CODCENTRODECUSTO&quot;)+&quot;&lt;/CODCCUSTO&gt;&quot;+&#xd;
+		&quot;&lt;CODDEPARTAMENTO&gt;&quot;+hAPI.getCardValue(&quot;CODDEPARTAMENTO&quot;)+&quot;&lt;/CODDEPARTAMENTO&gt;&quot;+&#xd;
+		&quot;&lt;CODTB1FAT&gt;02&lt;/CODTB1FAT&gt;&quot;+&#xd;
+		&quot;&lt;CODTB3FAT&gt;&quot;+hAPI.getCardValue(&quot;IDCLASSEDECOMPRA&quot;)+&quot;&lt;/CODTB3FAT&gt;&quot;+&#xd;
+		&quot;&lt;HISTORICOLONGO&gt;&quot;+hAPI.getCardValue(&quot;SERVICOASEREXECUTADO&quot;)+&quot;&lt;/HISTORICOLONGO&gt;&quot;+&#xd;
+		&quot;&lt;IDCLASSMOV&gt;&quot;+hAPI.getCardValue(&quot;IDCLASSEDAMANUTENCAO&quot;)+&quot;&lt;/IDCLASSMOV&gt;&quot;+&#xd;
+		&quot;&lt;IDOBJOF&gt;&quot;+hAPI.getCardValue(&quot;OBJETODEMANUTENCAO&quot;)+&quot;&lt;/IDOBJOF&gt;&quot;;&#xd;
+		//&quot;&lt;CODCFO&gt;&quot;+hAPI.getCardValue(&quot;CODCFO&quot;)+&quot;&lt;/CODCFO&gt;&quot;;&#xd;
+	&#xd;
+		if (hAPI.getCardValue(&quot;CHAPARESP&quot;) == &quot;NÃO PREENCHIDO NO TOTVS&quot;){&#xd;
+			xml = xml+&quot;&lt;CHAPARESP&gt;004738&lt;/CHAPARESP&gt;&quot;;&#xd;
+		} else {&#xd;
+			xml = xml+&quot;&lt;CHAPARESP&gt;&quot;+hAPI.getCardValue(&quot;CHAPARESP&quot;)+&quot;&lt;/CHAPARESP&gt;&quot;;&#xd;
+		}&#xd;
+	xml = xml+&quot;&lt;/TMOV&gt;&quot;;&#xd;
+	&#xd;
+	&#xd;
+	var NSEQITMMOV = 1;&#xd;
+	var indexes = hAPI.getChildrenIndexes(&quot;TABELA_PECAORIGINAL&quot;);&#xd;
+&#xd;
+	for (var i = 1; i &lt;= indexes.length; ++i) {&#xd;
+		var temValor = hAPI.getCardValue(&quot;IDPRDPECAORIGINAL___&quot;+i) == &quot;&quot; ? true :&#xd;
+						   hAPI.getCardValue(&quot;QUANTIDADEPECAORIGINAL___&quot;+i) == &quot;&quot; ? true :&#xd;
+							   hAPI.getCardValue(&quot;ULTIMOPRECOPECAORIGINAL___&quot;+i) == &quot;&quot; ? true :&#xd;
+								   hAPI.getCardValue(&quot;CODCOMPONENTESPECAORIGINAL___&quot;+i) == &quot;&quot; ? true : false;&#xd;
+		if (!temValor){&#xd;
+			xml = xml+&quot;&lt;TITMMOV&gt;&quot;+&#xd;
+				&quot;&lt;CODCOLIGADA&gt;1&lt;/CODCOLIGADA&gt;&quot;+&#xd;
+				&quot;&lt;IDMOV&gt;-1&lt;/IDMOV&gt;&quot;+&#xd;
+				&quot;&lt;NSEQITMMOV&gt;&quot;+NSEQITMMOV+&quot;&lt;/NSEQITMMOV&gt;&quot;+&#xd;
+				&quot;&lt;CODCCUSTO&gt;&quot;+hAPI.getCardValue(&quot;CODCENTRODECUSTO&quot;)+&quot;&lt;/CODCCUSTO&gt;&quot;+&#xd;
+				&quot;&lt;CODDEPARTAMENTO&gt;&quot;+hAPI.getCardValue(&quot;CODDEPARTAMENTO&quot;)+&quot;&lt;/CODDEPARTAMENTO&gt;&quot;+&#xd;
+				&quot;&lt;IDPRD&gt;&quot;+hAPI.getCardValue(&quot;IDPRDPECAORIGINAL___&quot;+i)+&quot;&lt;/IDPRD&gt;&quot;+&#xd;
+				&quot;&lt;QUANTIDADE&gt;&quot;+hAPI.getCardValue(&quot;QUANTIDADEPECAORIGINAL___&quot;+i).replace(&quot;.&quot;,&quot;,&quot;)+&quot;&lt;/QUANTIDADE&gt;&quot;+&#xd;
+				&quot;&lt;PRECOUNITARIO&gt;&quot;+hAPI.getCardValue(&quot;ULTIMOPRECOPECAORIGINAL___&quot;+i).replace(&quot;.&quot;,&quot;,&quot;)+&quot;&lt;/PRECOUNITARIO&gt;&quot;+&#xd;
+				&quot;&lt;CODTB2FAT&gt;&quot;+hAPI.getCardValue(&quot;CODCOMPONENTESPECAORIGINAL___&quot;+1)+&quot;&lt;/CODTB2FAT&gt;&quot;+&#xd;
+				&quot;&lt;IDOBJOFICINA&gt;&quot;+hAPI.getCardValue(&quot;OBJETODEMANUTENCAO&quot;)+&quot;&lt;/IDOBJOFICINA&gt;&quot;+&#xd;
+				&quot;&lt;IDTIPOOBJ&gt;&quot;+hAPI.getCardValue(&quot;CODTIPOOBJ&quot;)+&quot;&lt;/IDTIPOOBJ&gt;&quot;+&#xd;
+		 	&quot;&lt;/TITMMOV&gt;&quot;;&#xd;
+			NSEQITMMOV++;&#xd;
+		}&#xd;
+	}&#xd;
+	//==================================================================================================&#xd;
+	var indexes = hAPI.getChildrenIndexes(&quot;TABELA_PECAAUXILIAR&quot;);&#xd;
+&#xd;
+	for (var i = 1; i &lt;= indexes.length; ++i) {&#xd;
+		var temValor = hAPI.getCardValue(&quot;IDPRDPECAAUXILIAR___&quot;+i) == &quot;&quot; ? true :&#xd;
+						   hAPI.getCardValue(&quot;QUANTIDADEPECAAUXILIAR___&quot;+i) == &quot;&quot; ? true :&#xd;
+							   hAPI.getCardValue(&quot;ULTIMOPRECOPECAAUXILIAR___&quot;+i) == &quot;&quot; ? true :&#xd;
+								   hAPI.getCardValue(&quot;CODCOMPONENTESPECAAUXILIAR___&quot;+i) == &quot;&quot; ? true : false;&#xd;
+		if (!temValor){&#xd;
+			xml = xml+&quot;&lt;TITMMOV&gt;&quot;+&#xd;
+				&quot;&lt;CODCOLIGADA&gt;1&lt;/CODCOLIGADA&gt;&quot;+&#xd;
+				&quot;&lt;IDMOV&gt;-1&lt;/IDMOV&gt;&quot;+&#xd;
+				&quot;&lt;NSEQITMMOV&gt;&quot;+NSEQITMMOV+&quot;&lt;/NSEQITMMOV&gt;&quot;+&#xd;
+				&quot;&lt;CODCCUSTO&gt;&quot;+hAPI.getCardValue(&quot;CODCENTRODECUSTO&quot;)+&quot;&lt;/CODCCUSTO&gt;&quot;+&#xd;
+				&quot;&lt;CODDEPARTAMENTO&gt;&quot;+hAPI.getCardValue(&quot;CODDEPARTAMENTO&quot;)+&quot;&lt;/CODDEPARTAMENTO&gt;&quot;+&#xd;
+				&quot;&lt;IDPRD&gt;&quot;+hAPI.getCardValue(&quot;IDPRDPECAAUXILIAR___&quot;+i)+&quot;&lt;/IDPRD&gt;&quot;+&#xd;
+				&quot;&lt;QUANTIDADE&gt;&quot;+hAPI.getCardValue(&quot;QUANTIDADEPECAAUXILIAR___&quot;+i).replace(&quot;.&quot;,&quot;,&quot;)+&quot;&lt;/QUANTIDADE&gt;&quot;+&#xd;
+				&quot;&lt;PRECOUNITARIO&gt;&quot;+hAPI.getCardValue(&quot;ULTIMOPRECOPECAAUXILIAR___&quot;+i).replace(&quot;.&quot;,&quot;,&quot;)+&quot;&lt;/PRECOUNITARIO&gt;&quot;+&#xd;
+				&quot;&lt;CODTB2FAT&gt;&quot;+hAPI.getCardValue(&quot;CODCOMPONENTESPECAAUXILIAR___&quot;+1)+&quot;&lt;/CODTB2FAT&gt;&quot;+&#xd;
+				&quot;&lt;IDOBJOFICINA&gt;&quot;+hAPI.getCardValue(&quot;OBJETODEMANUTENCAO&quot;)+&quot;&lt;/IDOBJOFICINA&gt;&quot;+&#xd;
+				&quot;&lt;IDTIPOOBJ&gt;&quot;+hAPI.getCardValue(&quot;CODTIPOOBJ&quot;)+&quot;&lt;/IDTIPOOBJ&gt;&quot;+&#xd;
+		 	&quot;&lt;/TITMMOV&gt;&quot;;&#xd;
+			NSEQITMMOV++;&#xd;
+		}&#xd;
+	}&#xd;
+	//==================================================================================================&#xd;
+	var indexes = hAPI.getChildrenIndexes(&quot;TABELA_PNEUS&quot;);&#xd;
+&#xd;
+	for (var i = 1; i &lt;= indexes.length; ++i) {&#xd;
+		var temValor = hAPI.getCardValue(&quot;IDPRDPNEUS___&quot;+i) == &quot;&quot; ? true :&#xd;
+						   hAPI.getCardValue(&quot;QUANTIDADEPNEUS___&quot;+i) == &quot;&quot; ? true :&#xd;
+							   hAPI.getCardValue(&quot;ULTIMOPRECOPNEUS___&quot;+i) == &quot;&quot; ? true :&#xd;
+								   hAPI.getCardValue(&quot;CODCOMPONENTESPNEUS___&quot;+i) == &quot;&quot; ? true : false;&#xd;
+		if (!temValor){&#xd;
+			xml = xml+&quot;&lt;TITMMOV&gt;&quot;+&#xd;
+				&quot;&lt;CODCOLIGADA&gt;1&lt;/CODCOLIGADA&gt;&quot;+&#xd;
+				&quot;&lt;IDMOV&gt;-1&lt;/IDMOV&gt;&quot;+&#xd;
+				&quot;&lt;NSEQITMMOV&gt;&quot;+NSEQITMMOV+&quot;&lt;/NSEQITMMOV&gt;&quot;+&#xd;
+				&quot;&lt;CODCCUSTO&gt;&quot;+hAPI.getCardValue(&quot;CODCENTRODECUSTO&quot;)+&quot;&lt;/CODCCUSTO&gt;&quot;+&#xd;
+				&quot;&lt;CODDEPARTAMENTO&gt;&quot;+hAPI.getCardValue(&quot;CODDEPARTAMENTO&quot;)+&quot;&lt;/CODDEPARTAMENTO&gt;&quot;+&#xd;
+				&quot;&lt;IDPRD&gt;&quot;+hAPI.getCardValue(&quot;IDPRDPNEUS___&quot;+i)+&quot;&lt;/IDPRD&gt;&quot;+&#xd;
+				&quot;&lt;QUANTIDADE&gt;&quot;+hAPI.getCardValue(&quot;QUANTIDADEPNEUS___&quot;+i).replace(&quot;.&quot;,&quot;,&quot;)+&quot;&lt;/QUANTIDADE&gt;&quot;+&#xd;
+				&quot;&lt;PRECOUNITARIO&gt;&quot;+hAPI.getCardValue(&quot;ULTIMOPRECOPNEUS___&quot;+i).replace(&quot;.&quot;,&quot;,&quot;)+&quot;&lt;/PRECOUNITARIO&gt;&quot;+&#xd;
+				&quot;&lt;CODTB2FAT&gt;&quot;+hAPI.getCardValue(&quot;CODCOMPONENTESPNEUS___&quot;+i)+&quot;&lt;/CODTB2FAT&gt;&quot;+&#xd;
+				&quot;&lt;IDOBJOFICINA&gt;&quot;+hAPI.getCardValue(&quot;OBJETODEMANUTENCAO&quot;)+&quot;&lt;/IDOBJOFICINA&gt;&quot;+&#xd;
+				&quot;&lt;IDTIPOOBJ&gt;&quot;+hAPI.getCardValue(&quot;CODTIPOOBJ&quot;)+&quot;&lt;/IDTIPOOBJ&gt;&quot;+&#xd;
+		 	&quot;&lt;/TITMMOV&gt;&quot;;&#xd;
+			NSEQITMMOV++;&#xd;
+		}&#xd;
+	}&#xd;
+	//==================================================================================================&#xd;
+	var indexes = hAPI.getChildrenIndexes(&quot;TABELA_OLEOS&quot;);&#xd;
+&#xd;
+	for (var i = 1; i &lt;= indexes.length; ++i) {&#xd;
+		var temValor = hAPI.getCardValue(&quot;IDPRDOLEO___&quot;+i) == &quot;&quot; ? true :&#xd;
+						   hAPI.getCardValue(&quot;QUANTIDADEOLEO___&quot;+i) == &quot;&quot; ? true :&#xd;
+							   hAPI.getCardValue(&quot;ULTIMOPRECOOLEO___&quot;+i) == &quot;&quot; ? true :&#xd;
+								   hAPI.getCardValue(&quot;CODCOMPONENTESOLEO___&quot;+i) == &quot;&quot; ? true : false;&#xd;
+		if (!temValor){&#xd;
+			xml = xml+&quot;&lt;TITMMOV&gt;&quot;+&#xd;
+				&quot;&lt;CODCOLIGADA&gt;1&lt;/CODCOLIGADA&gt;&quot;+&#xd;
+				&quot;&lt;IDMOV&gt;-1&lt;/IDMOV&gt;&quot;+&#xd;
+				&quot;&lt;NSEQITMMOV&gt;&quot;+NSEQITMMOV+&quot;&lt;/NSEQITMMOV&gt;&quot;+&#xd;
+				&quot;&lt;CODCCUSTO&gt;&quot;+hAPI.getCardValue(&quot;CODCENTRODECUSTO&quot;)+&quot;&lt;/CODCCUSTO&gt;&quot;+&#xd;
+				&quot;&lt;CODDEPARTAMENTO&gt;&quot;+hAPI.getCardValue(&quot;CODDEPARTAMENTO&quot;)+&quot;&lt;/CODDEPARTAMENTO&gt;&quot;+&#xd;
+				&quot;&lt;IDPRD&gt;&quot;+hAPI.getCardValue(&quot;IDPRDOLEO___&quot;+i)+&quot;&lt;/IDPRD&gt;&quot;+&#xd;
+				&quot;&lt;QUANTIDADE&gt;&quot;+hAPI.getCardValue(&quot;QUANTIDADEOLEO___&quot;+i).replace(&quot;.&quot;,&quot;,&quot;)+&quot;&lt;/QUANTIDADE&gt;&quot;+&#xd;
+				&quot;&lt;PRECOUNITARIO&gt;&quot;+hAPI.getCardValue(&quot;ULTIMOPRECOOLEO___&quot;+i).replace(&quot;.&quot;,&quot;,&quot;)+&quot;&lt;/PRECOUNITARIO&gt;&quot;+&#xd;
+				&quot;&lt;CODTB2FAT&gt;&quot;+hAPI.getCardValue(&quot;CODCOMPONENTESOLEO___&quot;+1)+&quot;&lt;/CODTB2FAT&gt;&quot;+&#xd;
+				&quot;&lt;IDOBJOFICINA&gt;&quot;+hAPI.getCardValue(&quot;OBJETODEMANUTENCAO&quot;)+&quot;&lt;/IDOBJOFICINA&gt;&quot;+&#xd;
+				&quot;&lt;IDTIPOOBJ&gt;&quot;+hAPI.getCardValue(&quot;CODTIPOOBJ&quot;)+&quot;&lt;/IDTIPOOBJ&gt;&quot;+&#xd;
+		 	&quot;&lt;/TITMMOV&gt;&quot;;&#xd;
+			NSEQITMMOV++;&#xd;
+		}&#xd;
+	}&#xd;
+	//==================================================================================================&#xd;
+	var indexes = hAPI.getChildrenIndexes(&quot;TABELA_SERVICOSINTERNOS&quot;);&#xd;
+&#xd;
+	for (var i = 1; i &lt;= indexes.length; ++i) {&#xd;
+		var temValor = hAPI.getCardValue(&quot;IDPRDSERVICOINTERNO___&quot;+i) == &quot;&quot; ? true :&#xd;
+						   hAPI.getCardValue(&quot;QUANTIDADESERVICOINTERNO___&quot;+i) == &quot;&quot; ? true :&#xd;
+							   hAPI.getCardValue(&quot;ULTIMOPRECOSERVICOINTERNO___&quot;+i) == &quot;&quot; ? true :&#xd;
+								   hAPI.getCardValue(&quot;CODCOMPONENTESSERVINTERNO___&quot;+i) == &quot;&quot; ? true : false;&#xd;
+		if (!temValor){&#xd;
+			xml = xml+&quot;&lt;TITMMOV&gt;&quot;+&#xd;
+				&quot;&lt;CODCOLIGADA&gt;1&lt;/CODCOLIGADA&gt;&quot;+&#xd;
+				&quot;&lt;IDMOV&gt;-1&lt;/IDMOV&gt;&quot;+&#xd;
+				&quot;&lt;NSEQITMMOV&gt;&quot;+NSEQITMMOV+&quot;&lt;/NSEQITMMOV&gt;&quot;+&#xd;
+				&quot;&lt;CODCCUSTO&gt;&quot;+hAPI.getCardValue(&quot;CODCENTRODECUSTO&quot;)+&quot;&lt;/CODCCUSTO&gt;&quot;+&#xd;
+				&quot;&lt;CODDEPARTAMENTO&gt;&quot;+hAPI.getCardValue(&quot;CODDEPARTAMENTO&quot;)+&quot;&lt;/CODDEPARTAMENTO&gt;&quot;+&#xd;
+				&quot;&lt;IDPRD&gt;&quot;+hAPI.getCardValue(&quot;IDPRDSERVICOINTERNO___&quot;+i)+&quot;&lt;/IDPRD&gt;&quot;+&#xd;
+				&quot;&lt;QUANTIDADE&gt;&quot;+hAPI.getCardValue(&quot;QUANTIDADESERVICOINTERNO___&quot;+i).replace(&quot;.&quot;,&quot;,&quot;)+&quot;&lt;/QUANTIDADE&gt;&quot;+&#xd;
+				&quot;&lt;PRECOUNITARIO&gt;&quot;+hAPI.getCardValue(&quot;ULTIMOPRECOSERVICOINTERNO___&quot;+i).replace(&quot;.&quot;,&quot;,&quot;)+&quot;&lt;/PRECOUNITARIO&gt;&quot;+&#xd;
+				&quot;&lt;CODTB2FAT&gt;&quot;+hAPI.getCardValue(&quot;CODCOMPONENTESSERVINTERNO___&quot;+1)+&quot;&lt;/CODTB2FAT&gt;&quot;+&#xd;
+				&quot;&lt;IDOBJOFICINA&gt;&quot;+hAPI.getCardValue(&quot;OBJETODEMANUTENCAO&quot;)+&quot;&lt;/IDOBJOFICINA&gt;&quot;+&#xd;
+				&quot;&lt;IDTIPOOBJ&gt;&quot;+hAPI.getCardValue(&quot;CODTIPOOBJ&quot;)+&quot;&lt;/IDTIPOOBJ&gt;&quot;+&#xd;
+		 	&quot;&lt;/TITMMOV&gt;&quot;;&#xd;
+			NSEQITMMOV++;&#xd;
+		}&#xd;
+	}&#xd;
+	//==================================================================================================&#xd;
+	var indexes = hAPI.getChildrenIndexes(&quot;TABELA_SERVICOSEXTERNOS&quot;);&#xd;
+&#xd;
+	for (var i = 1; i &lt;= indexes.length; ++i) {&#xd;
+		var temValor = hAPI.getCardValue(&quot;IDPRDSERVICOEXTERNO___&quot;+i) == &quot;&quot; ? true :&#xd;
+						   hAPI.getCardValue(&quot;QUANTIDADESERVICOEXTERNO___&quot;+i) == &quot;&quot; ? true :&#xd;
+							   hAPI.getCardValue(&quot;ULTIMOPRECOSERVICOEXTERNO___&quot;+i) == &quot;&quot; ? true :&#xd;
+								   hAPI.getCardValue(&quot;CODCOMPONENTESSERVEXTERNO___&quot;+i) == &quot;&quot; ? true : false;&#xd;
+		if (!temValor){&#xd;
+				xml = xml+&quot;&lt;TITMMOV&gt;&quot;+&#xd;
+					&quot;&lt;CODCOLIGADA&gt;1&lt;/CODCOLIGADA&gt;&quot;+&#xd;
+					&quot;&lt;IDMOV&gt;-1&lt;/IDMOV&gt;&quot;+&#xd;
+					&quot;&lt;NSEQITMMOV&gt;&quot;+NSEQITMMOV+&quot;&lt;/NSEQITMMOV&gt;&quot;+&#xd;
+					&quot;&lt;CODCCUSTO&gt;&quot;+hAPI.getCardValue(&quot;CODCENTRODECUSTO&quot;)+&quot;&lt;/CODCCUSTO&gt;&quot;+&#xd;
+					&quot;&lt;CODDEPARTAMENTO&gt;&quot;+hAPI.getCardValue(&quot;CODDEPARTAMENTO&quot;)+&quot;&lt;/CODDEPARTAMENTO&gt;&quot;+&#xd;
+					&quot;&lt;IDPRD&gt;&quot;+hAPI.getCardValue(&quot;IDPRDSERVICOEXTERNO___&quot;+i)+&quot;&lt;/IDPRD&gt;&quot;+&#xd;
+					&quot;&lt;QUANTIDADE&gt;&quot;+hAPI.getCardValue(&quot;QUANTIDADESERVICOEXTERNO___&quot;+i).replace(&quot;.&quot;,&quot;,&quot;)+&quot;&lt;/QUANTIDADE&gt;&quot;+&#xd;
+					&quot;&lt;PRECOUNITARIO&gt;&quot;+hAPI.getCardValue(&quot;ULTIMOPRECOSERVICOEXTERNO___&quot;+i).replace(&quot;.&quot;,&quot;,&quot;)+&quot;&lt;/PRECOUNITARIO&gt;&quot;+&#xd;
+					&quot;&lt;CODTB2FAT&gt;&quot;+hAPI.getCardValue(&quot;CODCOMPONENTESSERVEXTERNO___&quot;+1)+&quot;&lt;/CODTB2FAT&gt;&quot;+&#xd;
+					&quot;&lt;IDOBJOFICINA&gt;&quot;+hAPI.getCardValue(&quot;OBJETODEMANUTENCAO&quot;)+&quot;&lt;/IDOBJOFICINA&gt;&quot;+&#xd;
+					&quot;&lt;IDTIPOOBJ&gt;&quot;+hAPI.getCardValue(&quot;CODTIPOOBJ&quot;)+&quot;&lt;/IDTIPOOBJ&gt;&quot;+&#xd;
+			 	&quot;&lt;/TITMMOV&gt;&quot;;&#xd;
+				NSEQITMMOV++;&#xd;
+		}&#xd;
+	}&#xd;
+ 	&#xd;
+	xml = xml+&quot;&lt;/MovMovimento&gt;&quot;&#xd;
+			&#xd;
+			log.error(&quot;xml: &quot;)&#xd;
+			log.error(xml)&#xd;
+			&#xd;
+				&#xd;
+	var result = new String( authService.saveRecord(nomeDataserver, xml, contexto) );&#xd;
+	hAPI.setCardValue(&quot;OSIDMOV&quot;, result.split(&quot;;&quot;)[1])&#xd;
+	log.error(&quot;result: &quot;+result);&#xd;
+	//String DataServerName, String XML, String UserName, String UserPassword, String contexto, String emailUsuarioContexto&#xd;
+	&#xd;
+	if (result.split(&quot;;&quot;)[0] != &quot;1&quot;){&#xd;
+		throw &quot;ERRO AO CRIAR A OS\n\n&quot;+result.split(&quot;=&quot;)[0]+&quot;\n\n&quot;&#xd;
+	} else {&#xd;
+		var dataset = DatasetFactory.getDataset(&quot;ds_OSE_Numero_OS&quot;, &#xd;
+				        null, &#xd;
+				        [DatasetFactory.createConstraint(&quot;IDMOV&quot;, result.split(&quot;;&quot;)[1], result.split(&quot;;&quot;)[1], ConstraintType.MUST)],&#xd;
+				        null);&#xd;
+		hAPI.setCardValue(&quot;OSNUMEROMOV&quot;,  dataset.getValue(0, &quot;NUMEROMOV&quot;))&#xd;
+	}&#xd;
+&#xd;
+	// Obtém a data atual&#xd;
+	var dataAtual = new Date();&#xd;
+	&#xd;
+	// Extrai os componentes da data&#xd;
+	var ano = dataAtual.getFullYear();&#xd;
+	var mes = (dataAtual.getMonth() + 1) &lt; 10 ? &quot;0&quot;+(dataAtual.getMonth() + 1) : (dataAtual.getMonth() + 1); // Os meses são indexados a partir de 0&#xd;
+	var dia = (dataAtual.getDate()) &lt; 10 ? &quot;0&quot;+(dataAtual.getDate()) : (dataAtual.getDate());&#xd;
+	var horas = (dataAtual.getHours()) &lt; 10 ? &quot;0&quot;+(dataAtual.getHours()) : (dataAtual.getHours());&#xd;
+	var minutos = (dataAtual.getMinutes()) &lt; 10 ? &quot;0&quot;+(dataAtual.getMinutes()) : (dataAtual.getMinutes());&#xd;
+	var segundos = (dataAtual.getSeconds()) &lt; 10 ? &quot;0&quot;+(dataAtual.getSeconds()) : (dataAtual.getSeconds());&#xd;
+	&#xd;
+	// Formata a data&#xd;
+	var dataFormatada = ano+&quot;-&quot;+mes+&quot;-&quot;+dia+&quot;T&quot;+horas+&quot;:&quot;+minutos+&quot;:&quot;+segundos&#xd;
+	&#xd;
+	var historicoLongo = String(hAPI.getCardValue(&quot;SERVICOASEREXECUTADO&quot;)).replace(/\r?\n/g, &apos;\n&apos;) + &apos;\n&apos; + String(hAPI.getCardValue(&quot;SOLUCAO&quot;)).replace(/\r?\n/g, &apos;\n&apos;);&#xd;
+	&#xd;
+	//Execução a seguir altera a OS criada do status &quot;normal&quot; para o &quot;Aguardando Análise&quot;&#xd;
+	var xml = &quot;&lt;MovMovimento&gt;&quot;+&#xd;
+				  &quot;&lt;TMOV&gt;&quot;+&#xd;
+				    &quot;&lt;CODCOLIGADA&gt;1&lt;/CODCOLIGADA&gt;&quot;+&#xd;
+				    &quot;&lt;IDMOV&gt;&quot;+hAPI.getCardValue(&quot;OSIDMOV&quot;)+&quot;&lt;/IDMOV&gt;&quot;+&#xd;
+				    &quot;&lt;STATUS&gt;Z&lt;/STATUS&gt;&quot;+&#xd;
+				    &quot;&lt;DATAEXTRA1&gt;&quot;+dataFormatada+&quot;&lt;/DATAEXTRA1&gt;&quot;+&#xd;
+				    &quot;&lt;DATAEXTRA2&gt;&quot;+dataFormatada+&quot;&lt;/DATAEXTRA2&gt;&quot;+&#xd;
+					&quot;&lt;HISTORICOLONGO&gt;&quot;+historicoLongo+&quot;&lt;/HISTORICOLONGO&gt;&quot;+&#xd;
+				  &quot;&lt;/TMOV&gt;&quot;+&#xd;
+				  &quot;&lt;TMOVCOMPL&gt;&quot;+&#xd;
+					&quot;&lt;CODCOLIGADA&gt;1&lt;/CODCOLIGADA&gt;&quot;+&#xd;
+					&quot;&lt;IDMOV&gt;&quot;+hAPI.getCardValue(&quot;OSIDMOV&quot;)+&quot;&lt;/IDMOV&gt;&quot;+&#xd;
+					&quot;&lt;ATUALIZACAO2&gt;&quot;+dataFormatada+&quot;&lt;/ATUALIZACAO2&gt;&quot;+&#xd;
+				  &quot;&lt;/TMOVCOMPL&gt;&quot;+&#xd;
+				&quot;&lt;/MovMovimento&gt;&quot;;&#xd;
+				    &#xd;
+	var result = new String( authService.saveRecord(nomeDataserver, xml, contexto) );&#xd;
+	log.error(&quot;result Status: &quot;+result);&#xd;
+	&#xd;
+	if (result.split(&quot;;&quot;)[0] != &quot;1&quot;){&#xd;
+		throw &quot;ERRO AO FINALIZAR STATUS DA OS\n\n&quot;+result.split(&quot;=&quot;)[0]+&quot;\n\n&quot;&#xd;
+	}&#xd;
+		&#xd;
+}&#xd;
+&#xd;
+function getWebService(usuario, senha){&#xd;
+	&#xd;
+	var nomeServico = &quot;wsDataServer&quot;&#xd;
+		log.info(&quot;nomeServico: &quot;+nomeServico)&#xd;
+		&#xd;
+	var caminhoServico = &quot;com.totvs.WsDataServer&quot;&#xd;
+		log.info(&quot;caminhoServico: &quot;+caminhoServico)&#xd;
+		&#xd;
+	var dataServerService = ServiceManager.getServiceInstance(nomeServico);&#xd;
+	log.info(&quot;dataServerService: &quot;+dataServerService)&#xd;
+	&#xd;
+	if (dataServerService == null){&#xd;
+		throw &quot;Erro ao encontrar serviço!&quot;;&#xd;
+	}&#xd;
+	&#xd;
+	var locator = dataServerService.instantiate(caminhoServico);&#xd;
+	log.info(&quot;locator: &quot;+locator)&#xd;
+&#xd;
+	if (locator == null){&#xd;
+		throw &quot;Erro ao instanciar serviço!&quot;;&#xd;
+	}&#xd;
+	&#xd;
+	var service = locator.getRMIwsDataServer();&#xd;
+	log.info(&quot;service: &quot;+service)&#xd;
+&#xd;
+	if (service == null){&#xd;
+		throw &quot;Erro instancia incorreta ou com problemas!&quot;;&#xd;
+	}&#xd;
+	&#xd;
+	var serviceHelper = dataServerService.getBean();&#xd;
+	log.info(&quot;serviceHelper: &quot;+serviceHelper)&#xd;
+&#xd;
+	if (serviceHelper == null){&#xd;
+		throw &quot;Erro no serviço de autenticação!&quot;;&#xd;
+	}&#xd;
+	&#xd;
+	var authService = serviceHelper.getBasicAuthenticatedClient(service, &quot;com.totvs.IwsDataServer&quot;, usuario, senha)&#xd;
+	log.info(&quot;authService: &quot;+authService)&#xd;
+&#xd;
+	if (authService == null){&#xd;
+		throw &quot;Erro ao autenticar dataserver!&quot;;&#xd;
+	}&#xd;
+	&#xd;
+	return authService;&#xd;
+&#xd;
+}&#xd;
+ &#xd;
+function validacaoHorimetroCorreto(){&#xd;
+	&#xd;
+	&#xd;
+	var regex = /^(TDE|TCM|TTP|TPE|TPA|TRB|TEH|TPC|TRE|TMH|TPH|TDV|TTT|LCM|LCR|LDE|LDV|LEH|LMN|LMP|LOB|LPC|LPE|LPG|LRC|LRE|LTE).*/&#xd;
+		if ( regex.test(hAPI.getCardValue(&quot;OBJETODEMANUTENCAO&quot;)) ){&#xd;
+&#xd;
+	try {&#xd;
+		&#xd;
+		var c1 = DatasetFactory.createConstraint(&quot;IDOBJOF&quot;, hAPI.getCardValue(&apos;OBJETODEMANUTENCAO&apos;),&#xd;
+				hAPI.getCardValue(&apos;OBJETODEMANUTENCAO&apos;), ConstraintType.MUST);&#xd;
+&#xd;
+		var constraints = new Array(c1);&#xd;
+		var dataset = DatasetFactory.getDataset(&apos;ds_OSE_Objeto_de_Manutencao_Horimetro&apos;,null,constraints,null);&#xd;
+		&#xd;
+        //form.setValue(&apos;DATACOLETA&apos;, dataset.getValue(0, &quot;DATACOLETA&quot;));&#xd;
+        &#xd;
+        var horimetroAtual = parseFloat(hAPI.getCardValue(&apos;HORIMETROMEDIDOR&apos;))&#xd;
+        var horimetroMaximo = parseFloat(dataset.getValue(0, &quot;HORASMAXIMAS&quot;))&#xd;
+        var horimetroAcumulado = parseFloat(dataset.getValue(0, &quot;HORIMETRO&quot;))&#xd;
+        &#xd;
+        log.error(&quot;horimetroAtual: &quot;+horimetroAtual)&#xd;
+        log.error(&quot;horimetroMaximo: &quot;+horimetroMaximo)&#xd;
+        log.error(&quot;horimetroAcumulado: &quot;+horimetroAcumulado)&#xd;
+        if(horimetroAtual &gt; horimetroMaximo){&#xd;
+        	throw &quot;\n\n O Horimetro digitado é maior que o prazo desde a ultima medição! \n\n&quot;; &#xd;
+        }&#xd;
+        if(horimetroAtual &lt; horimetroAcumulado){&#xd;
+        	throw &quot;\n\n O Horimetro digitado é menor que o Horimetro acumulado! \n\n&quot;; &#xd;
+        }&#xd;
+&#xd;
+	}catch (e){&#xd;
+		log.error(&quot;Erro ao validar Horimetro, favor tente novamente online\n\n&quot;+e)&#xd;
+		throw e&#xd;
+	}&#xd;
+	&#xd;
+	}&#xd;
+}&#xd;
+ &#xd;
+function validacaoRMRSPendente(){&#xd;
+&#xd;
+	try {&#xd;
+		&#xd;
+		var c1 = DatasetFactory.createConstraint(&quot;IDMOVOS&quot;, hAPI.getCardValue(&apos;OSIDMOV&apos;),&#xd;
+			hAPI.getCardValue(&apos;OSIDMOV&apos;), ConstraintType.MUST);&#xd;
+&#xd;
+		var constraints = new Array(c1);&#xd;
+		var dataset = DatasetFactory.getDataset(&apos;ds_OSE_RMRS_Pendente&apos;,null,constraints,null);&#xd;
+		&#xd;
+&#xd;
+        if(dataset.rowsCount &gt; 0){&#xd;
+        	hAPI.setCardValue(&apos;REQUISICOESPENDENTES&apos;, &quot;TEM&quot;)&#xd;
+        }else{&#xd;
+        	hAPI.setCardValue(&apos;REQUISICOESPENDENTES&apos;, &quot;NÃOTEM&quot;)&#xd;
+        }&#xd;
+&#xd;
+	}catch (e){&#xd;
+		log.error(e)&#xd;
+	}&#xd;
+	&#xd;
+}</eventDescription>
+    </WorkflowProcessEvent>
+  </list>
+  <list/>
+  <list>
+    <SwimLane>
+      <color>FFFFFF</color>
+      <height>571</height>
+      <width>1041</width>
+      <positionX>10</positionX>
+      <positionY>10</positionY>
+      <stateName>Ordem de Serviço Corretiva</stateName>
+      <type>1</type>
+      <parentSequence>0</parentSequence>
+      <swimLanePK>
+        <companyId>1</companyId>
+        <processId>OSE-OSCorretiva</processId>
+        <version>1</version>
+        <sequence>1</sequence>
+      </swimLanePK>
+    </SwimLane>
+    <SwimLane>
+      <color>9F9F9F</color>
+      <height>190</height>
+      <width>1011</width>
+      <positionX>40</positionX>
+      <positionY>10</positionY>
+      <stateName>Mecânico</stateName>
+      <type>2</type>
+      <parentSequence>1</parentSequence>
+      <swimLanePK>
+        <companyId>1</companyId>
+        <processId>OSE-OSCorretiva</processId>
+        <version>1</version>
+        <sequence>2</sequence>
+      </swimLanePK>
+    </SwimLane>
+    <SwimLane>
+      <color>C0C0C0</color>
+      <height>190</height>
+      <width>1011</width>
+      <positionX>40</positionX>
+      <positionY>200</positionY>
+      <stateName>Controlador de Manutenção</stateName>
+      <type>2</type>
+      <parentSequence>1</parentSequence>
+      <swimLanePK>
+        <companyId>1</companyId>
+        <processId>OSE-OSCorretiva</processId>
+        <version>1</version>
+        <sequence>3</sequence>
+      </swimLanePK>
+    </SwimLane>
+    <SwimLane>
+      <color>82b0b7</color>
+      <height>191</height>
+      <width>1011</width>
+      <positionX>40</positionX>
+      <positionY>390</positionY>
+      <stateName>T.i.</stateName>
+      <type>2</type>
+      <parentSequence>1</parentSequence>
+      <swimLanePK>
+        <companyId>1</companyId>
+        <processId>OSE-OSCorretiva</processId>
+        <version>1</version>
+        <sequence>4</sequence>
+      </swimLanePK>
+    </SwimLane>
+  </list>
+  <list/>
+  <list/>
+  <list>
+    <ProcessLinkBend>
+      <processLinkBendPK>
+        <companyId>1</companyId>
+        <processId>OSE-OSCorretiva</processId>
+        <version>23</version>
+        <linkSequence>21</linkSequence>
+        <bendSequence>1</bendSequence>
+      </processLinkBendPK>
+      <positionX>503</positionX>
+      <positionY>237</positionY>
+    </ProcessLinkBend>
+    <ProcessLinkBend>
+      <processLinkBendPK>
+        <companyId>1</companyId>
+        <processId>OSE-OSCorretiva</processId>
+        <version>23</version>
+        <linkSequence>21</linkSequence>
+        <bendSequence>2</bendSequence>
+      </processLinkBendPK>
+      <positionX>503</positionX>
+      <positionY>107</positionY>
+    </ProcessLinkBend>
+    <ProcessLinkBend>
+      <processLinkBendPK>
+        <companyId>1</companyId>
+        <processId>OSE-OSCorretiva</processId>
+        <version>23</version>
+        <linkSequence>53</linkSequence>
+        <bendSequence>1</bendSequence>
+      </processLinkBendPK>
+      <positionX>87</positionX>
+      <positionY>296</positionY>
+    </ProcessLinkBend>
+    <ProcessLinkBend>
+      <processLinkBendPK>
+        <companyId>1</companyId>
+        <processId>OSE-OSCorretiva</processId>
+        <version>23</version>
+        <linkSequence>56</linkSequence>
+        <bendSequence>1</bendSequence>
+      </processLinkBendPK>
+      <positionX>382</positionX>
+      <positionY>106</positionY>
+    </ProcessLinkBend>
+    <ProcessLinkBend>
+      <processLinkBendPK>
+        <companyId>1</companyId>
+        <processId>OSE-OSCorretiva</processId>
+        <version>23</version>
+        <linkSequence>58</linkSequence>
+        <bendSequence>1</bendSequence>
+      </processLinkBendPK>
+      <positionX>802</positionX>
+      <positionY>299</positionY>
+    </ProcessLinkBend>
+    <ProcessLinkBend>
+      <processLinkBendPK>
+        <companyId>1</companyId>
+        <processId>OSE-OSCorretiva</processId>
+        <version>23</version>
+        <linkSequence>59</linkSequence>
+        <bendSequence>1</bendSequence>
+      </processLinkBendPK>
+      <positionX>802</positionX>
+      <positionY>297</positionY>
+    </ProcessLinkBend>
+    <ProcessLinkBend>
+      <processLinkBendPK>
+        <companyId>1</companyId>
+        <processId>OSE-OSCorretiva</processId>
+        <version>23</version>
+        <linkSequence>60</linkSequence>
+        <bendSequence>1</bendSequence>
+      </processLinkBendPK>
+      <positionX>87</positionX>
+      <positionY>34</positionY>
+    </ProcessLinkBend>
+    <ProcessLinkBend>
+      <processLinkBendPK>
+        <companyId>1</companyId>
+        <processId>OSE-OSCorretiva</processId>
+        <version>23</version>
+        <linkSequence>60</linkSequence>
+        <bendSequence>2</bendSequence>
+      </processLinkBendPK>
+      <positionX>1007</positionX>
+      <positionY>34</positionY>
+    </ProcessLinkBend>
+  </list>
+  <list/>
+  <list/>
+  <list>
+    <ProcessFormField>
+      <processFormFieldPK>
+        <companyId>1</companyId>
+        <processId>OSE-OSCorretiva</processId>
+        <fieldId>OBJETODEMANUTENCAO</fieldId>
+      </processFormFieldPK>
+      <fieldDescription>IDOBJOF</fieldDescription>
+      <slotId>1</slotId>
+    </ProcessFormField>
+    <ProcessFormField>
+      <processFormFieldPK>
+        <companyId>1</companyId>
+        <processId>OSE-OSCorretiva</processId>
+        <fieldId>SERIE</fieldId>
+      </processFormFieldPK>
+      <fieldDescription>SERIE</fieldDescription>
+      <slotId>2</slotId>
+    </ProcessFormField>
+    <ProcessFormField>
+      <processFormFieldPK>
+        <companyId>1</companyId>
+        <processId>OSE-OSCorretiva</processId>
+        <fieldId>HORIMETROMEDIDOR</fieldId>
+      </processFormFieldPK>
+      <fieldDescription>HORIMETROMEDIDOR</fieldDescription>
+      <slotId>3</slotId>
+    </ProcessFormField>
+    <ProcessFormField>
+      <processFormFieldPK>
+        <companyId>1</companyId>
+        <processId>OSE-OSCorretiva</processId>
+        <fieldId>OSNUMEROMOV</fieldId>
+      </processFormFieldPK>
+      <fieldDescription>NUMERO OS</fieldDescription>
+      <slotId>4</slotId>
+    </ProcessFormField>
+    <ProcessFormField>
+      <processFormFieldPK>
+        <companyId>1</companyId>
+        <processId>OSE-OSCorretiva</processId>
+        <fieldId>FILIAL</fieldId>
+      </processFormFieldPK>
+      <fieldDescription>FILIAL</fieldDescription>
+      <slotId>5</slotId>
+    </ProcessFormField>
+    <ProcessFormField>
+      <processFormFieldPK>
+        <companyId>1</companyId>
+        <processId>OSE-OSCorretiva</processId>
+        <fieldId>CODCENTRODECUSTO</fieldId>
+      </processFormFieldPK>
+      <fieldDescription>CODCENTRODECUSTO</fieldDescription>
+      <slotId>6</slotId>
+    </ProcessFormField>
+    <ProcessFormField>
+      <processFormFieldPK>
+        <companyId>1</companyId>
+        <processId>OSE-OSCorretiva</processId>
+        <fieldId>CENTRODECUSTO</fieldId>
+      </processFormFieldPK>
+      <fieldDescription>CENTRODECUSTO</fieldDescription>
+      <slotId>7</slotId>
+    </ProcessFormField>
+    <ProcessFormField>
+      <processFormFieldPK>
+        <companyId>1</companyId>
+        <processId>OSE-OSCorretiva</processId>
+        <fieldId>LOCALIZACAO</fieldId>
+      </processFormFieldPK>
+      <fieldDescription>LOCALIZACAO</fieldDescription>
+      <slotId>8</slotId>
+    </ProcessFormField>
+  </list>
+  <list/>
+  <list/>
+  <list/>
+  <list/>
+  <list/>
+</list>
